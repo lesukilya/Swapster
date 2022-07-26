@@ -52,6 +52,9 @@
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Home</a>
             </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Test</a>
+            </li>
           </ul>
         </nav>
       </div>
