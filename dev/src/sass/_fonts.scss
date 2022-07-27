@@ -7,7 +7,33 @@
  * @include font-face('PTSans', 'PTSansItalic', normal, italic);
  * @include font-face('PTSans', 'PTSansBold', bold);
  */
+
 $Arial:       Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $OpenSans:   'Open Sans', sans-serif;
 $Roboto:     'Roboto', sans-serif;
 $RobotoSlab: 'Roboto Slab', serif;
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFPro.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+$SFPro: "SF Pro Display";
+
