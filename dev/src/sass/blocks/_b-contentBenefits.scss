@@ -1,0 +1,124 @@
+.l-contentBenefits{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.b-contentBenefits{
+    width: 100%;
+    max-width: 1150px;
+    padding: 100px 20px 100px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    &__titleFirst{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 0.035em;
+        color: #FFFFFF;
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 27px 30px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        width: max-content;
+    }
+    &__img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .b-contentBenefitsImg1{
+        max-width: 95px;
+    }
+    .b-contentBenefitsImg2{
+        max-width: 80px; 
+    }
+    .b-contentBenefitsImg3{
+        max-width: 110px;
+    }
+    .b-contentBenefitsImg4{
+        max-width: 52px;
+    }
+    .b-contentBenefitsImg5{
+        max-width: 84px;
+    }
+    .b-contentBenefits-title3{
+        max-width: 224px;
+    }
+    .b-contentBenefits-title5{
+        max-width: 380px;
+    }
+    .b-contentBenefits-text4{
+        max-width: 458px;
+    }
+    .b-contentBenefits-text5{
+        max-width: 458px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.9;    
+        max-width: 256px;   
+        text-align: center; 
+        margin: 20px 0 20px 0;
+        padding: 0;   
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;        
+        color: #FFFFFF;       
+        opacity: 0.6;  
+        max-width: 290px;  
+        text-align: center;  
+        margin: 0;
+        padding: 0;   
+    }
+    &__titleFirst{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 0.035em;
+        color: #FFFFFF;
+        margin: 0 0 50px 0;
+        padding: 0;
+    }
+    &__cardsHorizontal{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cardsVertical{
+        margin: 30px 0 0 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cardVertical{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 28px 41px 36px 41px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        width: max-content;
+    }
+}
