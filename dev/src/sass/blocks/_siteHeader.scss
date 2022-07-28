@@ -1,6 +1,16 @@
 .l-siteHeader {
-
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
 }
 .b-siteHeader {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1340px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }

@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  gap: 27px;
 
   &__item {
 
@@ -15,6 +17,11 @@
     @include hover-underline;
     display: block;
     color: white;
-    font-family: $SFPro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.8;
   }
 }

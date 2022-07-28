@@ -42,7 +42,7 @@
           ?>
           <<?php echo $siteLogo__tag; ?> class="b-siteLogo" itemscope itemtype="http://schema.org/Organization">
             <a class="b-siteLogo__link"<?php echo $siteLogo__link; ?> itemprop="url">
-              <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/siteLogo-logo.png" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
+              <img class="b-siteLogo__icon" src="assets/img/blocks/siteLogo/logo.png" alt="<?php echo $siteName; ?>" title="<?php echo $siteName; ?>" itemprop="logo" />
             </a>
           </<?php echo $siteLogo__tag; ?>>
         </div>
@@ -50,13 +50,30 @@
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Home</a>
+              <a class="b-mainNavigation__link" href="index.html">Главная</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Test</a>
+              <a class="b-mainNavigation__link" href="index.html">Активы и тарифы</a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Как это работает</a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Крипто-проверкиная</a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Блог </a>
+            </li>
+            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="index.html">Поддержка </a>
             </li>
           </ul>
         </nav>
+        <ul class="b-siteAuth">
+            <li class="b-siteAuth__item">
+              <a class="b-siteAuth__link" href="index.html">Присоединиться</a>
+            </li>
+        </ul>
       </div>
     </header>
 

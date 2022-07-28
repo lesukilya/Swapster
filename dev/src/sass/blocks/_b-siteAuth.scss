@@ -1,0 +1,16 @@
+.b-siteAuth{
+    list-style-type: none;
+    &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        box-sizing: border-box;
+        padding: 13px 36px;
+        border: 2px solid #07DBB4;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+}
