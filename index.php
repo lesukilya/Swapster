@@ -50,7 +50,7 @@ require( 'inc/header.php' );
                             Почти моментальные переводы
                         </h3>
                         <p class="b-secondScreen__articleText">
-                            В комиссиях Swapster уже заложено щедрое вознаграждение майнерам, поэтому все ваши переводы будут доставлены максимально быстро. USDT — 1 минута. ВТС, ЕТН — 10 минут.                        
+                            В комиссиях Swapster уже заложено щедрое вознаграждение майнерам, поэтому все ваши переводы будут доставлены максимально быстро. USDT — 1 минута. ВТС, ЕТН — 10 минут.
                         </p>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ require( 'inc/header.php' );
                             Анонимность и безопасность
                         </h3>
                         <p class="b-secondScreen__articleText">
-                            Мы не собираем и не передаём персональные данные пользователей. Вам доступны все функции бота без верификации личности. Безопасность ваших средств обеспечена безопасностью вашего Telegram-аккаунта.                        
+                            Мы не собираем и не передаём персональные данные пользователей. Вам доступны все функции бота без верификации личности. Безопасность ваших средств обеспечена безопасностью вашего Telegram-аккаунта.
                         </p>
                     </div>
                 </div>
@@ -77,51 +77,54 @@ require( 'inc/header.php' );
             </h2>
             <div class="b-contentBenefits__cardsHorizontal">
                 <div class="b-contentBenefits__card">
+                  <div class="b-contentBenefits__wrapper">
                     <img src="/assets/img/userfiles/contentBenedfits-vector1.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg1">
+                    <span class="b-contentBenefits__shadow"></span>
+                  </div>
                     <h3 class="b-contentBenefits__title">
                         Автоматические выплаты на любые счета российских банков
-                    </h3>    
+                    </h3>
                     <p class="b-contentBenefits__text">
                         Пользуясь криптокошельком в ТГ, вам не требуется ждать, когда придут деньги, как это происходит в обменниках и биржах. Выплаты переводятся мгновенно. Для комфорта можно сохранить список рабочих карт, чтобы не вводить номера при каждом переводе.
-                    </p>   
+                    </p>
                 </div>
                 <div class="b-contentBenefits__card">
                     <img src="/assets/img/userfiles/contentBenedfits-vector2.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg2">
                     <h3 class="b-contentBenefits__title">
-                        Выгодный обмен криптовалют без больших комиссий                    
-                    </h3>    
+                        Выгодный обмен криптовалют без больших комиссий
+                    </h3>
                     <p class="b-contentBenefits__text text2-3">
-                        При конвертации криптовалют не нужно оплачивать дополнительную комиссию. Курс фиксируется каждые 5 секунд и обновляется в режиме онлайн.                    
-                    </p>   
+                        При конвертации криптовалют не нужно оплачивать дополнительную комиссию. Курс фиксируется каждые 5 секунд и обновляется в режиме онлайн.
+                    </p>
                 </div>
                 <div class="b-contentBenefits__card">
                     <img src="/assets/img/userfiles/contentBenedfits-vector3.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg3">
                     <h3 class="b-contentBenefits__title b-contentBenefits-title3">
-                        Общий баланс USDT для всех сетей без комиссии                    
-                    </h3>    
+                        Общий баланс USDT для всех сетей без комиссии
+                    </h3>
                     <p class="b-contentBenefits__text text2-3">
-                        Переводите USDT по сетям TRC20, ERC20, BEP20 с одного криптокошелька в ТГ. Получили перевод по одной сети? Можете отправить его по другой. Перекидывать средства между счетами не нужно.                    
-                    </p>   
+                        Переводите USDT по сетям TRC20, ERC20, BEP20 с одного криптокошелька в ТГ. Получили перевод по одной сети? Можете отправить его по другой. Перекидывать средства между счетами не нужно.
+                    </p>
                 </div>
-            </div> 
+            </div>
             <div class="b-contentBenefits__cardsVertical">
                 <div class="b-contentBenefits__cardVertical">
                     <img src="/assets/img/userfiles/contentBenedfits-vector4.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg4">
                     <h3 class="b-contentBenefits__title">
                         Поддержка 24/7
-                    </h3>    
+                    </h3>
                     <p class="b-contentBenefits__text b-contentBenefits-text4">
                         Сотрудники находятся на связи круглосуточно. Можете обратиться с появившимися вопросами и предложениями о работе криптокошелька в ТГ в любое время.
-                    </p>   
+                    </p>
                 </div>
                 <div class="b-contentBenefits__cardVertical">
                     <img src="/assets/img/userfiles/contentBenedfits-vector5.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg5">
                     <h3 class="b-contentBenefits__title b-contentBenefits-title5">
                         Поддержка 24/7
-                    </h3>    
+                    </h3>
                     <p class="b-contentBenefits__text b-contentBenefits-text5">
                         Сотрудники находятся на связи круглосуточно. Можете обратиться с появившимися вопросами и предложениями о работе криптокошелька в ТГ в любое время.
-                    </p>   
+                    </p>
                 </div>
             </div>
         </div>
