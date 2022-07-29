@@ -90,7 +90,7 @@ require( 'inc/header.php' );
                     <h3 class="b-contentBenefits__title">
                         Выгодный обмен криптовалют без больших комиссий                    
                     </h3>    
-                    <p class="b-contentBenefits__text">
+                    <p class="b-contentBenefits__text text2-3">
                         При конвертации криптовалют не нужно оплачивать дополнительную комиссию. Курс фиксируется каждые 5 секунд и обновляется в режиме онлайн.                    
                     </p>   
                 </div>
@@ -99,7 +99,7 @@ require( 'inc/header.php' );
                     <h3 class="b-contentBenefits__title b-contentBenefits-title3">
                         Общий баланс USDT для всех сетей без комиссии                    
                     </h3>    
-                    <p class="b-contentBenefits__text">
+                    <p class="b-contentBenefits__text text2-3">
                         Переводите USDT по сетям TRC20, ERC20, BEP20 с одного криптокошелька в ТГ. Получили перевод по одной сети? Можете отправить его по другой. Перекидывать средства между счетами не нужно.                    
                     </p>   
                 </div>

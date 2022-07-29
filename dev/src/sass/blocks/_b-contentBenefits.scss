@@ -28,11 +28,24 @@
         background: rgba(255, 255, 255, 0.05);
         border-radius: 15px;
         width: max-content;
+        width: 100%;
+        max-width: 350px;
     }
     &__img{
         margin: 0;
         padding: 0;
         width: 100%;
+        position: relative;
+        &::before{
+            content: '';
+            background-color: rgba(171, 0, 251, 0.3);;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            filter: blur(87px);
+            width: 110px;
+            height: 110px;
+        }
     }
     .b-contentBenefitsImg1{
         max-width: 95px;
@@ -60,6 +73,9 @@
     }
     .b-contentBenefits-text5{
         max-width: 458px;
+    }
+    .text2-3{
+        max-width: 271px;
     }
     &__title{
         font-style: normal;
