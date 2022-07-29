@@ -141,6 +141,19 @@ require( 'inc/header.php' );
             </div>
         </div>
     </section>
+    <section class="l-wallet">
+        <div class="b-wallet">
+            <h2 class="b-wallet__title">
+                Создайте криптокошелек в ТГ прямо сейчас!
+            </h2>
+            <p  class="b-wallet__text">
+                Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
+            </p>
+            <a href="#" class="b-wallet__link">Запустить Swapster</a>
+            <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
+            <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
+        </div>
+    </section>
 </main>
 
 <?php require( 'inc/footer.php' ); ?>
