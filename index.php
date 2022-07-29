@@ -77,10 +77,10 @@ require( 'inc/header.php' );
             </h2>
             <div class="b-contentBenefits__cardsHorizontal">
                 <div class="b-contentBenefits__card">
-                  <div class="b-contentBenefits__wrapper">
-                    <img src="/assets/img/userfiles/contentBenedfits-vector1.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg1">
-                    <span class="b-contentBenefits__shadow"></span>
-                  </div>
+                    <div class="b-contentBenefits__wrapper">
+                        <img src="/assets/img/userfiles/contentBenedfits-vector1.svg" alt="" class="b-contentBenefits__img">
+                        <span class="b-contentBenefits__shadow"></span>
+                    </div>
                     <h3 class="b-contentBenefits__title">
                         Автоматические выплаты на любые счета российских банков
                     </h3>
@@ -89,7 +89,10 @@ require( 'inc/header.php' );
                     </p>
                 </div>
                 <div class="b-contentBenefits__card">
-                    <img src="/assets/img/userfiles/contentBenedfits-vector2.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg2">
+                    <div class="b-contentBenefits__wrapper">
+                        <img src="/assets/img/userfiles/contentBenedfits-vector2.svg" alt="" class="b-contentBenefits__img">
+                        <span class="b-contentBenefits__shadow -green"></span>
+                    </div>                    
                     <h3 class="b-contentBenefits__title">
                         Выгодный обмен криптовалют без больших комиссий
                     </h3>
@@ -98,7 +101,10 @@ require( 'inc/header.php' );
                     </p>
                 </div>
                 <div class="b-contentBenefits__card">
-                    <img src="/assets/img/userfiles/contentBenedfits-vector3.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg3">
+                    <div class="b-contentBenefits__wrapper">
+                        <img src="/assets/img/userfiles/contentBenedfits-vector3.svg" alt="" class="b-contentBenefits__img">
+                        <span class="b-contentBenefits__shadow"></span>
+                    </div>                    
                     <h3 class="b-contentBenefits__title b-contentBenefits-title3">
                         Общий баланс USDT для всех сетей без комиссии
                     </h3>
@@ -109,7 +115,10 @@ require( 'inc/header.php' );
             </div>
             <div class="b-contentBenefits__cardsVertical">
                 <div class="b-contentBenefits__cardVertical">
-                    <img src="/assets/img/userfiles/contentBenedfits-vector4.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg4">
+                    <div class="b-contentBenefits__wrapper">
+                        <img src="/assets/img/userfiles/contentBenedfits-vector4.svg" alt="" class="b-contentBenefits__img">
+                        <span class="b-contentBenefits__shadow"></span>
+                    </div>                   
                     <h3 class="b-contentBenefits__title">
                         Поддержка 24/7
                     </h3>
@@ -118,12 +127,15 @@ require( 'inc/header.php' );
                     </p>
                 </div>
                 <div class="b-contentBenefits__cardVertical">
-                    <img src="/assets/img/userfiles/contentBenedfits-vector5.svg" alt="" class="b-contentBenefits__img b-contentBenefitsImg5">
+                    <div class="b-contentBenefits__wrapper">
+                        <img src="/assets/img/userfiles/contentBenedfits-vector5.svg" alt="" class="b-contentBenefits__img">
+                        <span class="b-contentBenefits__shadow -green"></span>
+                    </div>                    
                     <h3 class="b-contentBenefits__title b-contentBenefits-title5">
-                        Поддержка 24/7
+                        AML-проверка переводов и кошельков
                     </h3>
                     <p class="b-contentBenefits__text b-contentBenefits-text5">
-                        Сотрудники находятся на связи круглосуточно. Можете обратиться с появившимися вопросами и предложениями о работе криптокошелька в ТГ в любое время.
+                        Проверить происхождение средств можно заранее, чтобы быть уверенными, что они получены честным, не преступным путем. Компания всегда заботимся о безопасности клиентов.                    
                     </p>
                 </div>
             </div>
