@@ -141,18 +141,66 @@ require( 'inc/header.php' );
             </div>
         </div>
     </section>
-    <section class="l-wallet">
+    <section class="l-wallet">  
         <div class="b-wallet">
-            <h2 class="b-wallet__title">
-                Создайте криптокошелек в ТГ прямо сейчас!
+            <div class="b-wallet__warpper">
+                <h2 class="b-wallet__title">
+                    Создайте криптокошелек в ТГ прямо сейчас!
+                </h2>
+                <p  class="b-wallet__text">
+                    Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
+                </p>
+                <a href="#" class="b-wallet__link">Запустить Swapster</a>
+                <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
+                <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
+            </div>
+        </div>  
+    </section>
+    <section class="l-stepAssetsFunctions">
+        <div class="b-step">
+            <h2 class="b-step__title">
+                Три простых шага
             </h2>
-            <p  class="b-wallet__text">
-                Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
-            </p>
-            <a href="#" class="b-wallet__link">Запустить Swapster</a>
-            <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
-            <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
+            <div class="b-step__boxes">
+                <div  class="b-step__box">
+                    <span class="b-step__boxShadow"></span>  
+                    <div  class="b-step__info">
+                        <p class="b-step__number">
+                            01
+                        </p>
+                        <p class="b-step__text">
+                            Запустите свой telegram-аккаунт
+                        </p>
+                    </div>
+                </div>
+                <img src="/assets/img/userfiles/step1.png" alt=""  class="b-step__img1">
+                <div  class="b-step__box box2step">
+                    <span class="b-step__boxShadow"></span>  
+                    <div  class="b-step__info">
+                        <p class="b-step__number">
+                            02
+                        </p>
+                        <p class="b-step__text bigTextStep1">
+                            Нажмите «Запустить» в Swapster
+                        </p>
+                    </div>
+                </div>
+                <img src="/assets/img/userfiles/step2.png" alt=""  class="b-step__img2">
+                <div  class="b-step__box box3step">
+                    <span class="b-step__boxShadow"></span>  
+                    <div  class="b-step__info">
+                        <p class="b-step__number">
+                            03
+                        </p>
+                        <p class="b-step__text bigTextStep">
+                            Храните, меняйте, пользуйтесь криптовалютой
+                        </p>
+                    </div>
+                </div>
+                <img src="/assets/img/userfiles/step3.png" alt=""  class="b-step__img3">
+            </div>
         </div>
+        
     </section>
 </main>
 
