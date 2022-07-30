@@ -200,7 +200,100 @@ require( 'inc/header.php' );
                 <img src="/assets/img/userfiles/step3.png" alt=""  class="b-step__img3">
             </div>
         </div>
-        
+        <div class="b-assets">
+            <h2 class="b-assets__title">
+                Поддерживаемые активы
+            </h2>
+            <p class="b-assets__text">
+                Каждый день команда Swapster расширяет перечень поддерживаемых криптовалют, чтобы вам было еще проще и удобнее работать. Сегодня в Swapster вы можете хранить, менять и обменивать такие активы:
+            </p>
+            <img src="/assets/img/userfiles/assets-crypto.png" alt="" class="b-assets__img">
+        </div>
+        <div class="b-functions">
+            <h2 class="b-functions__title">
+                Функции приложения
+            </h2>
+            <div class="b-functions__boxes">
+                <div class="b-functions__box">
+                    <div class="b-functions__boxRow">
+                        <img src="/assets/img/userfiles/function1.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle">
+                            Прием криптовалют
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+                <div class="b-functions__box">
+                    <div class="b-functions__boxRow">
+                        <img src="/assets/img/userfiles/function2.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle">
+                            Отправка криптовалют
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+                <div class="b-functions__box">
+                    <div class="b-functions__boxRow">
+                        <img src="/assets/img/userfiles/function3.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle">
+                            Обмен криптовалют
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+                <div class="b-functions__box -bigBox">
+                    <div class="b-functions__boxRow -bigRow">
+                        <img src="/assets/img/userfiles/function4.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle -bigTitle">
+                            Пополнение и вывод на карты банков
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+                <div class="b-functions__box">
+                    <div class="b-functions__boxRow">
+                        <img src="/assets/img/userfiles/function5.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle">
+                            Заработок на рефералах
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+                <div class="b-functions__box">
+                    <div class="b-functions__boxRow">
+                        <img src="/assets/img/userfiles/function6.svg" alt="" class="b-functions__img1">
+                        <p  class="b-functions__boxTitle">
+                            Проверка транзакция                        
+                        </p>
+                    </div>
+                    <div  class="b-functions__text">  
+                        <p class="b-functions">
+                            Принимайте большинство криптоактивов с любых кошельков без комиссий
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 
