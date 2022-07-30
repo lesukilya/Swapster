@@ -1,17 +1,22 @@
 .l-wallet{
     width: 100%;
-    padding: 0 20px;
+    padding: 0 ;
     margin: 0;
 }
 .b-wallet{
     width: 100%;
     max-width: 1150px;
-    padding: 56px 26px 48px 26px;
+    padding: 0 20px 0 20px;
     margin: 0 auto;
     box-sizing: border-box;
-    background-image: url(/assets/img/userfiles/wallet-bg.png);
-    background-repeat: no-repeat;
     position: relative;
+    &__warpper{
+        padding: 56px 26px 48px 26px;
+        box-sizing: border-box;
+        margin: 0;
+        background-image: url(/assets/img/userfiles/wallet-bg.png);
+        background-repeat: no-repeat;
+    }
     &__title{
         font-style: normal;
         font-weight: 500;

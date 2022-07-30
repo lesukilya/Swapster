@@ -1,0 +1,106 @@
+.l-stepAssetsFunctions{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.b-step{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 103px 20px 100px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+    &__boxes{
+        padding: 68px 0 0 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__box{
+        padding: 17px 0 35px 197px;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        background: #121326;
+        border-radius: 5px;
+        border-top: 1px solid white;   
+        position: relative;
+        overflow: hidden;    
+    }
+    .box2step{
+        padding: 17px 16px 35px 154px;
+    }
+    .box3step{
+        padding: 17px 0 16px 177px;
+    }
+    &__info{
+        padding: 0;
+        margin: 0 0 0 11px;
+    }
+    &__number{
+        background: linear-gradient(18.74deg, #9600FB 0%, #42E8E0 30%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;   
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;    
+        margin: 0;
+        padding: 0; 
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;   
+        margin: 17px 0 0 0;
+        padding: 0;
+        max-width: 142px;
+    }
+    .bigTextStep1{
+        max-width: 169px;
+    }
+    .bigTextStep{
+        max-width: 162px;
+    }
+    &__img1{
+        position: absolute;
+        top: 45px;
+        left:  3px;
+    }
+    &__boxShadow{
+        width: 104px;
+        height: 104px;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        background: rgba(11, 225, 247, 0.8);
+        filter: blur(93px);
+    }
+    &__img2{
+        position: absolute;
+        top: 35px;
+        right:  590px;
+    }
+    &__img3{
+        position: absolute;
+        top: 50px;
+        right:  178px;
+    }
+}
