@@ -294,6 +294,8 @@ require( 'inc/header.php' );
                 </div>
             </div>
         </div>
+        <img src="/assets/img/userfiles/stepEllipse1.png" alt="" class="l-step__bg1">
+        <img src="/assets/img/userfiles/stepEllipse2.png" alt="" class="l-step__bg2">
     </section>
 </main>
 
