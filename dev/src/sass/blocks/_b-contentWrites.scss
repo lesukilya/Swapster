@@ -1,0 +1,113 @@
+.l-contentWrites{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.b-contentWrites{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    max-width: 1150px;
+    &__start{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+    &__boxes{
+        display: flex;
+        padding: 0;
+        margin: 40px 0 0 0;
+        justify-content: space-between;
+    }
+    &__box{
+        padding: 28px 51px 34px 22px;
+        margin: 0;
+        background: #121326;
+        border-radius: 5px;
+        display: flex;
+
+    }
+    &__textSide{
+        margin: 11px 0 0 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+    &__img{
+        padding: 0;
+        margin: 0;
+        width: 138px;
+    }
+    &__text{
+        max-width: 289px;
+        padding: 0;
+        margin: 0;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF; 
+        opacity: 0.8;
+    }
+    &__info{
+        margin: 0 0 0 36px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url('/assets/img/userfiles/writesLine.png');
+            top: 0;
+            left:  -20px;
+            height: 141px;
+            width: 1px;
+        }
+    }
+    &__link{
+        margin: 21px 0 0 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: #8287F3;
+        text-decoration: none;
+        width: max-content;
+        position: relative;        
+        &::after{
+            content: '';
+            background-image: url('/assets/img/userfiles/writesArrow.svg');
+            width: 10px;
+            height: 10px;
+            background-repeat: no-repeat;
+            position: absolute;
+            transform: translate(0, -38%);
+            top: 50%;
+            right: -15px;
+        }
+    }
+    &__arrowsSlider{
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+        display: flex;
+    }
+}
