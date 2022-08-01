@@ -3,9 +3,23 @@
 }
 
 .b-siteCopyright {
-
+  @include hover-underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 220%;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.3;
   &__link {
+    margin: 0;
+    padding: 0;
     @include hover-underline;
-    color: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 220%;
+    text-align: right;
+    color: #FFFFFF;
   }
 }

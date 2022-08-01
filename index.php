@@ -150,7 +150,7 @@ require( 'inc/header.php' );
                 <p  class="b-wallet__text">
                     Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
                 </p>
-                <a href="#" class="b-wallet__link">Запустить Swapster</a>
+                <a href="#" class="b-wallet__link button">Запустить Swapster</a>
                 <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
                 <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
             </div>
@@ -429,6 +429,8 @@ require( 'inc/header.php' );
                 <h2 class="b-contentStart__title">
                     Запустить Swapster и создать все доступные кошельки в 1 клик
                 </h2>
+                <a href="#" class="b-wallet__link button">Запустить Swapster</a>
+                <img src="/assets/img/userfiles/startPhone.png" alt="" class="b-contentStart__img">
             </div>
         </div>
     </section>

@@ -1,6 +1,181 @@
 .l-siteFooter {
-
+    width: 100%;
+    padding: 43px 0 57px 0;
+    background: #1F2146;
+    margin: 0;
 }
 .b-siteFooter {
-
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    max-width: 1150px;
+    box-sizing: border-box;
+    &__start{
+        padding: 0 0 30px 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(6, 7, 27, 0.4);
+        box-sizing: border-box;
+    }
+    &__button{
+        padding: 13px 32px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        width: max-content;
+        border: 1px solid #07DBB4;
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        color: #07DBB4;
+        align-items: center;
+        &::after{
+            content: '';
+            background-image: url('/assets/img/userfiles/footerArrow.svg');
+            width: 28px;
+            height: 28px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 0;
+            margin: 0 0 0 10px;
+            display: block;
+        }
+    }
+    &__startSide{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 56px;
+        align-items: center;
+    }
+    &__email{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        @include hover-underline;
+        &::before{
+            content: '';
+            background-image: url(/assets/img/userfiles/footerEmail.svg);
+            margin: 0 10px 0 0;
+            padding: 0;
+            width: 18px;
+            height: 13px;
+        }
+    }
+    &__middle{
+        margin: 25px 0 50px 0;
+        padding: 0;
+        display: flex;
+        gap: 150px;
+    }
+    &__column{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    &__item{
+        margin: 10px 0 0 0;
+        padding: 0;
+        &.-start{
+            margin: 0;
+        }
+        &.-start2{
+            margin: 5px 0 0 0;
+        }
+    }
+    &__link{
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;  
+        @include hover-underline;   
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        opacity: 0.6;
+    }
+    &__subscribe{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+    &__social{
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+    &__links{
+        padding: 0;
+        margin: 0;
+    }
+    &__icons{
+        margin: 5px 0 0 0;
+        padding: 0;
+        display: flex;
+    }
+    &__icon{
+        transition: .3s;
+        margin: 0 0 0 10px;
+        padding: 0;
+        &.-start{
+            margin: 0;
+        }
+        &:hover{
+            path{
+                fill: #FFFFFF;
+                transition: .3s;
+            }
+        }
+    }
+    &__endLinks{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 100px;
+    }
+    &__endLink{
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        opacity: 0.3;    
+        @include hover-underline;      
+    }
+    &__endItem{
+        margin: 0;
+        padding: 0;
+    }
+    &__end{
+        padding: 20px 0 0 0;
+        margin: 0;
+        border-top: 1px solid rgba(6, 7, 27, 0.4);
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
 }
