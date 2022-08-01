@@ -372,6 +372,7 @@ require( 'inc/header.php' );
                 </div>
             </div>
         </div>
+        <img src="/assets/img/userfiles/stepEllipse1.png" alt="" class="l-contentNumbers__bg">
     </section>
     <section class="l-contentWrites">
         <div class="b-contentWrites">

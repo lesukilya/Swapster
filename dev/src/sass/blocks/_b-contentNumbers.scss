@@ -4,6 +4,13 @@
     width: 100%;
     position: relative;
 }
+.l-contentNumbers__bg{
+    position: absolute;
+    top: -300px;
+    right: 0;
+    z-index: -9;
+    opacity: 0.8;
+}
 .b-contentNumbers{
     width: 100%;
     max-width: 1150px;
@@ -161,4 +168,5 @@
         width: 25px;
         height: 38px;
     }
+    
 }
