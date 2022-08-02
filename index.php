@@ -7,7 +7,7 @@ require( 'inc/header.php' );
 
 <main class="l-contentText">
     <section class="l-firstScreen">
-    <img src="/assets/img/userfiles/firstScreen-bg.png" alt="" class="l-firstScreen__bg">
+        <img src="/assets/img/userfiles/firstScreen-bg.png" alt="" class="l-firstScreen__bg">
         <div class="b-firstScreen">
             <h1 class="b-firstScreen__title">
             Крипто-кошелек в твоём телеграмме
@@ -17,11 +17,11 @@ require( 'inc/header.php' );
                     Swapster — надежный крипто кошелёк и биржа, позволяющий хранить и обменивать криптовалюту, а также выводить фиат прямо на карту. И все это не выходя из телеграмма.
                 </p>
             </div>
-            <a href="#" class="b-firstScreen__link">Запустить Swapster</a>
+            <a href="#" class="b-firstScreen__link hvr-grow">Запустить Swapster</a>
             <img src="/assets/img/userfiles/firstScreen-phone.png" alt="" class="b-firstScreen__img">
         </div>
     </section>
-    <section class="l-secondScreen">
+    <!-- <section class="l-secondScreen">
         <div class="b-secondScreen">
             <img src="/assets/img/userfiles/secondScreen-phone2.png" alt="" class="b-secondScreen__img">
             <div class="b-secondScreen__side">
@@ -150,7 +150,7 @@ require( 'inc/header.php' );
                 <p  class="b-wallet__text">
                     Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
                 </p>
-                <a href="#" class="b-wallet__link button">Запустить Swapster</a>
+                <a href="#" class="b-wallet__link button hvr-grow">Запустить Swapster</a>
                 <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
                 <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
             </div>
@@ -380,19 +380,38 @@ require( 'inc/header.php' );
                 <h2 class="b-contentWrites__title">
                     О проекте пишут
                 </h2>
-                <div class="b-contentWrites__arrowsSlider">
-                    <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="24" cy="24.5332" r="23.5" transform="rotate(-180 24 24.5332)" stroke="#07DBB4"/>
-                    <path d="M15.002 23.3896C14.6114 23.7801 14.6114 24.4133 15.002 24.8038L21.3659 31.1677C21.7565 31.5583 22.3896 31.5583 22.7801 31.1677C23.1707 30.7772 23.1707 30.1441 22.7801 29.7535L17.1233 24.0967L22.7801 18.4398C23.1707 18.0493 23.1707 17.4161 22.7801 17.0256C22.3896 16.6351 21.7565 16.6351 21.3659 17.0256L15.002 23.3896ZM32.2909 23.0967L15.7091 23.0967L15.7091 25.0967L32.2909 25.0967L32.2909 23.0967Z" fill="#8287F3"/>
-                    <path d="M15.002 23.3896C14.6114 23.7801 14.6114 24.4133 15.002 24.8038L21.3659 31.1677C21.7565 31.5583 22.3896 31.5583 22.7801 31.1677C23.1707 30.7772 23.1707 30.1441 22.7801 29.7535L17.1233 24.0967L22.7801 18.4398C23.1707 18.0493 23.1707 17.4161 22.7801 17.0256C22.3896 16.6351 21.7565 16.6351 21.3659 17.0256L15.002 23.3896ZM32.2909 23.0967L15.7091 23.0967L15.7091 25.0967L32.2909 25.0967L32.2909 23.0967Z" fill="#07DBB4"/>
-                    </svg>
-                    <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="24" cy="24.5332" r="23.5" stroke="#8287F3"/>
-                    <path d="M32.9979 25.6768C33.3884 25.2863 33.3884 24.6531 32.9979 24.2626L26.6339 17.8987C26.2434 17.5081 25.6103 17.5081 25.2197 17.8987C24.8292 18.2892 24.8292 18.9223 25.2197 19.3129L30.8766 24.9697L25.2197 30.6266C24.8292 31.0171 24.8292 31.6503 25.2197 32.0408C25.6103 32.4313 26.2434 32.4313 26.6339 32.0408L32.9979 25.6768ZM15.709 25.9697H32.2908V23.9697H15.709V25.9697Z" fill="#8287F3"/>
-                    </svg>
+                <div class="b-contentWrites__arrowsSlider js-arrows">
                 </div>
             </div>
-            <div class="b-contentWrites__boxes">
+            <div class="b-contentWrites__boxes js-slider">
+                <div class="b-contentWrites__box">
+                    <div class="b-contentWrites__side">
+                    <img src="/assets/img/userfiles/MaskWrites.png" alt="" class="b-contentWrites__img">
+                    <p class="b-contentWrites__textSide">
+                        Название компании
+                    </p>
+                    </div>
+                    <div class="b-contentWrites__info">
+                        <p class="b-contentWrites__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam....
+                        </p>
+                        <a href="#" class="b-contentWrites__link">Читать далее</a>
+                    </div>
+                </div>
+                <div class="b-contentWrites__box">
+                    <div class="b-contentWrites__side">
+                    <img src="/assets/img/userfiles/MaskWrites.png" alt="" class="b-contentWrites__img">
+                    <p class="b-contentWrites__textSide">
+                        Название компании
+                    </p>
+                    </div>
+                    <div class="b-contentWrites__info">
+                        <p class="b-contentWrites__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam....
+                        </p>
+                        <a href="#" class="b-contentWrites__link">Читать далее</a>
+                    </div>
+                </div>
                 <div class="b-contentWrites__box">
                     <div class="b-contentWrites__side">
                     <img src="/assets/img/userfiles/MaskWrites.png" alt="" class="b-contentWrites__img">
@@ -430,13 +449,13 @@ require( 'inc/header.php' );
                 <h2 class="b-contentStart__title">
                     Запустить Swapster и создать все доступные кошельки в 1 клик
                 </h2>
-                <a href="#" class="b-wallet__link button">Запустить Swapster</a>
+                <a href="#" class="b-wallet__link button hvr-grow">Запустить Swapster</a>
                 <img src="/assets/img/userfiles/startPhone.png" alt="" class="b-contentStart__img">
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
-<?php require( 'inc/footer.php' ); ?>
+<?php //require( 'inc/footer.php' ); ?>
 
 

@@ -32,7 +32,7 @@
 </head>
 <body class="l-body -page_<?php echo $uri; ?><?php echo ( ! $isHomepage ) ? ' -page_inner' : ''; ?>">
 
-  <div class="l-wrapper">
+  <!-- <div class="l-wrapper">
     <header class="l-siteHeader">
       <div class="b-siteHeader">
         <div class="l-siteLogo">
@@ -68,13 +68,18 @@
               <a class="b-mainNavigation__link" href="index.html">Поддержка </a>
             </li>
           </ul>
-        </nav>
-        <ul class="b-siteAuth">
+          <ul class="b-siteAuth">
             <li class="b-siteAuth__item">
-              <a class="b-siteAuth__link" href="index.html">Присоединиться</a>
+              <a class="b-siteAuth__link hvr-fade" href="index.html">Присоединиться</a>
             </li>
         </ul>
+        </nav>
+        <button class="hamburger hamburger--squeeze" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
       </div>
-    </header>
+    </header> -->
 
     <div class="l-content">

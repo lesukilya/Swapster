@@ -1,5 +1,18 @@
 .l-mainNavigation {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  @media screen and ( max-width:1150px ) {
+    gap: 40px;
+  }
+  @media screen and ( max-width:1050px ) {
+    gap: 20px;
+  }
+  @media screen and ( max-width:1024px ) {
+    display: none;
+    
+  }
 }
 .b-mainNavigation {
   margin: 0;
@@ -7,6 +20,9 @@
   list-style: none;
   display: flex;
   gap: 27px;
+  @media screen  and(max-width: 1150px){
+    gap: 20px;
+}
 
   &__item {
 
@@ -23,5 +39,10 @@
     line-height: 150%;
     color: #FFFFFF;
     opacity: 0.8;
+    @media screen  and(max-width: 1150px){
+      font-size: 14px;
+    }
   }
+  
 }
+

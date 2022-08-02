@@ -19,7 +19,7 @@
         box-sizing: border-box;
     }
     &__button{
-        padding: 13px 32px;
+        padding: 11px 32px;
         box-sizing: border-box;
         font-style: normal;
         font-weight: 500;
@@ -32,16 +32,27 @@
         display: flex;
         color: #07DBB4;
         align-items: center;
-        &::after{
-            content: '';
-            background-image: url('/assets/img/userfiles/footerArrow.svg');
-            width: 28px;
-            height: 28px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            padding: 0;
+        &:hover{
+            svg{
+                path{
+                    stroke: #06071B;
+                    transition: .3s;
+                }
+                circle{
+                    stroke: #06071B;
+                    transition: .3s;
+                }
+            }
+        }
+        svg{
             margin: 0 0 0 10px;
-            display: block;
+            padding: 0;
+            path{
+                transition: .3s;
+            }
+            circle{
+                transition: .3s;
+            }
         }
     }
     &__startSide{
@@ -138,6 +149,7 @@
         transition: .3s;
         margin: 0 0 0 10px;
         padding: 0;
+        cursor: pointer;
         &.-start{
             margin: 0;
         }
@@ -177,5 +189,11 @@
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
+    }
+    .hvr-fade{
+        &:hover{
+            background-color: #07DBB4;
+            color: #06071B;
+        }
     }
 }

@@ -1,7 +1,10 @@
 .b-siteAuth{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     &__link{
         font-style: normal;
+        margin: 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -12,5 +15,15 @@
         border: 2px solid #07DBB4;
         border-radius: 15px;
         text-decoration: none;
+        @media screen  and(max-width: 1150px){
+            padding: 10px 25px;
+            font-size: 14px;
+        }
+    }
+    .hvr-fade{
+        &:hover{
+            background-color: #07DBB4;
+            color: #06071B;
+        }
     }
 }

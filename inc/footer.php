@@ -6,7 +6,11 @@
           <img src="/assets/img/userfiles/FooterLogo.svg" alt="" class="b-siteFooter__logo">
           <div class="b-siteFooter__startSide">
             <a href="#" class="b-siteFooter__email">business@swapster.tech</a>
-            <a href="#" class="b-siteFooter__button">Запустить Swapster</a>
+            <a href="#" class="b-siteFooter__button hvr-fade">Запустить Swapster <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14.5332" r="13.5" stroke="#07DBB4"/>
+            <path d="M12 10.5332L16.5 15.0332L12 19.5332" stroke="#07DBB4"/>
+            </svg>
+            </a>
           </div>
         </div>
         <div class="b-siteFooter__middle">
