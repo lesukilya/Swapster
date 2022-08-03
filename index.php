@@ -17,8 +17,8 @@ require( 'inc/header.php' );
                     Swapster — надежный крипто кошелёк и биржа, позволяющий хранить и обменивать криптовалюту, а также выводить фиат прямо на карту. И все это не выходя из телеграмма.
                 </p>
             </div>
-            <a href="#" class="b-firstScreen__link hvr-grow">Запустить Swapster</a>
-            <img src="/assets/img/userfiles/firstScreen-phone.png" alt="" class="b-firstScreen__img">
+          <img src="/assets/img/userfiles/firstScreen-phone.png" alt="" class="b-firstScreen__img">
+          <a href="#" class="b-firstScreen__link hvr-grow">Запустить Swapster</a>
         </div>
     </section>
     <!-- <section class="l-secondScreen">
@@ -92,7 +92,7 @@ require( 'inc/header.php' );
                     <div class="b-contentBenefits__wrapper">
                         <img src="/assets/img/userfiles/contentBenedfits-vector2.svg" alt="" class="b-contentBenefits__img">
                         <span class="b-contentBenefits__shadow -green"></span>
-                    </div>                    
+                    </div>
                     <h3 class="b-contentBenefits__title">
                         Выгодный обмен криптовалют без больших комиссий
                     </h3>
@@ -104,7 +104,7 @@ require( 'inc/header.php' );
                     <div class="b-contentBenefits__wrapper">
                         <img src="/assets/img/userfiles/contentBenedfits-vector3.svg" alt="" class="b-contentBenefits__img">
                         <span class="b-contentBenefits__shadow"></span>
-                    </div>                    
+                    </div>
                     <h3 class="b-contentBenefits__title b-contentBenefits-title3">
                         Общий баланс USDT для всех сетей без комиссии
                     </h3>
@@ -118,7 +118,7 @@ require( 'inc/header.php' );
                     <div class="b-contentBenefits__wrapper">
                         <img src="/assets/img/userfiles/contentBenedfits-vector4.svg" alt="" class="b-contentBenefits__img">
                         <span class="b-contentBenefits__shadow"></span>
-                    </div>                   
+                    </div>
                     <h3 class="b-contentBenefits__title">
                         Поддержка 24/7
                     </h3>
@@ -130,18 +130,18 @@ require( 'inc/header.php' );
                     <div class="b-contentBenefits__wrapper">
                         <img src="/assets/img/userfiles/contentBenedfits-vector5.svg" alt="" class="b-contentBenefits__img">
                         <span class="b-contentBenefits__shadow -green"></span>
-                    </div>                    
+                    </div>
                     <h3 class="b-contentBenefits__title b-contentBenefits-title5">
                         AML-проверка переводов и кошельков
                     </h3>
                     <p class="b-contentBenefits__text b-contentBenefits-text5">
-                        Проверить происхождение средств можно заранее, чтобы быть уверенными, что они получены честным, не преступным путем. Компания всегда заботимся о безопасности клиентов.                    
+                        Проверить происхождение средств можно заранее, чтобы быть уверенными, что они получены честным, не преступным путем. Компания всегда заботимся о безопасности клиентов.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="l-wallet">  
+    <section class="l-wallet">
         <div class="b-wallet">
             <div class="b-wallet__warpper">
                 <h2 class="b-wallet__title">
@@ -154,7 +154,7 @@ require( 'inc/header.php' );
                 <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
                 <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
             </div>
-        </div>  
+        </div>
     </section>
     <section class="l-stepAssetsFunctions">
         <div class="b-step">
@@ -163,7 +163,7 @@ require( 'inc/header.php' );
             </h2>
             <div class="b-step__boxes">
                 <div  class="b-step__box">
-                    <span class="b-step__boxShadow"></span>  
+                    <span class="b-step__boxShadow"></span>
                     <div  class="b-step__info">
                         <p class="b-step__number">
                             01
@@ -175,7 +175,7 @@ require( 'inc/header.php' );
                 </div>
                 <img src="/assets/img/userfiles/step1.png" alt=""  class="b-step__img1">
                 <div  class="b-step__box box2step">
-                    <span class="b-step__boxShadow"></span>  
+                    <span class="b-step__boxShadow"></span>
                     <div  class="b-step__info">
                         <p class="b-step__number">
                             02
@@ -187,7 +187,7 @@ require( 'inc/header.php' );
                 </div>
                 <img src="/assets/img/userfiles/step2.png" alt=""  class="b-step__img2">
                 <div  class="b-step__box box3step">
-                    <span class="b-step__boxShadow"></span>  
+                    <span class="b-step__boxShadow"></span>
                     <div  class="b-step__info">
                         <p class="b-step__number">
                             03
@@ -221,7 +221,7 @@ require( 'inc/header.php' );
                             Прием криптовалют
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -234,7 +234,7 @@ require( 'inc/header.php' );
                             Отправка криптовалют
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -247,7 +247,7 @@ require( 'inc/header.php' );
                             Обмен криптовалют
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -260,7 +260,7 @@ require( 'inc/header.php' );
                             Пополнение и вывод на карты банков
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -273,7 +273,7 @@ require( 'inc/header.php' );
                             Заработок на рефералах
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -283,10 +283,10 @@ require( 'inc/header.php' );
                     <div class="b-functions__boxRow">
                         <img src="/assets/img/userfiles/function6.svg" alt="" class="b-functions__img1">
                         <p  class="b-functions__boxTitle">
-                            Проверка транзакция                        
+                            Проверка транзакция
                         </p>
                     </div>
-                    <div  class="b-functions__text">  
+                    <div  class="b-functions__text">
                         <p class="b-functions">
                             Принимайте большинство криптоактивов с любых кошельков без комиссий
                         </p>
@@ -312,7 +312,7 @@ require( 'inc/header.php' );
                         <p class="b-contentNumbers__columnText">
                             человек
                         </p>
-                    
+
                     </div>
                     <p class="b-contentNumbers__text -first">
                         уже используют криптокошелек Swapster
@@ -327,7 +327,7 @@ require( 'inc/header.php' );
                         <p class="b-contentNumbers__columnText">
                             транзакций
                         </p>
-                    
+
                     </div>
                     <p class="b-contentNumbers__text -first">
                         было совершено с момента запуска
@@ -364,7 +364,7 @@ require( 'inc/header.php' );
                         <p class="b-contentNumbers__columnText">
                             секунды
                         </p>
-                    
+
                     </div>
                     <p class="b-contentNumbers__text -second">
                         среднее время отправки транзакции

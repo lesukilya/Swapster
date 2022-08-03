@@ -110,8 +110,8 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 220%;
-        color: #FFFFFF;  
-        @include hover-underline;   
+        color: #FFFFFF;
+        @include hover-underline;
     }
     &__text{
         font-style: normal;
@@ -175,8 +175,8 @@
         font-size: 16px;
         line-height: 220%;
         color: #FFFFFF;
-        opacity: 0.3;    
-        @include hover-underline;      
+        opacity: 0.3;
+        @include hover-underline;
     }
     &__endItem{
         margin: 0;
