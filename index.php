@@ -21,7 +21,7 @@ require( 'inc/header.php' );
           <a href="#" class="b-firstScreen__link hvr-grow">Запустить Swapster</a>
         </div>
     </section>
-    <!-- <section class="l-secondScreen">
+    <section class="l-secondScreen">
         <div class="b-secondScreen">
             <img src="/assets/img/userfiles/secondScreen-phone2.png" alt="" class="b-secondScreen__img">
             <div class="b-secondScreen__side">
@@ -70,7 +70,7 @@ require( 'inc/header.php' );
             </div>
         </div>
     </section>
-    <section class="l-contentBenefits">
+    <!-- <section class="l-contentBenefits">
         <div class="b-contentBenefits">
             <h2 class="b-contentBenefits__titleFirst">
                 Еще преимущества
@@ -453,8 +453,8 @@ require( 'inc/header.php' );
                 <img src="/assets/img/userfiles/startPhone.png" alt="" class="b-contentStart__img">
             </div>
         </div>
-    </section> -->
-</main>
+    </section>
+</main> -->
 
 <?php require( 'inc/footer.php' ); ?>
 
