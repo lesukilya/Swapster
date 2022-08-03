@@ -456,6 +456,6 @@ require( 'inc/header.php' );
     </section> -->
 </main>
 
-<?php //require( 'inc/footer.php' ); ?>
+<?php require( 'inc/footer.php' ); ?>
 
 

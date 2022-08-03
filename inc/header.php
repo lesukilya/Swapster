@@ -32,7 +32,7 @@
 </head>
 <body class="l-body -page_<?php echo $uri; ?><?php echo ( ! $isHomepage ) ? ' -page_inner' : ''; ?>">
 
-  <!-- <div class="l-wrapper">
+  <div class="l-wrapper">
     <header class="l-siteHeader">
       <div class="b-siteHeader">
         <div class="l-siteLogo">
@@ -80,6 +80,6 @@
           </span>
         </button>
       </div>
-    </header> -->
+    </header>
 
     <div class="l-content">
