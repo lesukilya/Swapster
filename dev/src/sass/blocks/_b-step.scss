@@ -24,6 +24,9 @@
     margin: 0 auto;
     padding: 103px 20px 100px 20px;
     box-sizing: border-box;
+    @media screen and (max-width:768px) {
+        padding: 50px 20px 50px 20px ;
+    }
     &__title{
         font-style: normal;
         font-weight: 500;
@@ -33,6 +36,10 @@
         color: #FFFFFF;
         margin: 0;
         padding: 0;
+        @media screen and (max-width:768px) {
+            font-size: 25px;
+            line-height: 130%;
+        }
     }
     &__boxes{
         padding: 68px 0 0 0;
@@ -40,16 +47,36 @@
         display: flex;
         justify-content: space-between;
         position: relative;
+        gap: 20px;
+        @media screen and (max-width:1150px) {
+            flex-direction: column;
+            margin: 0 200px 0 200px;
+        }
+        @media screen and (max-width:850px) {
+            flex-direction: column;
+            margin: 0 100px 0 100px;
+        }
+        @media screen and (max-width:768px) {
+            margin: 0 70px 0 70px;
+            padding: 31px 0 0 0;
+        }
+        @media screen and (max-width:576px) {
+            margin: 0;
+        }
     }
     &__box{
         padding: 17px 0 35px 197px;
-        margin: 0;
+        margin: 0;  
         display: flex;
         justify-content: flex-end;
         background: #121326;
         border-radius: 5px;
         position: relative;
-        overflow: hidden;    
+        overflow: hidden; 
+        align-items: center; 
+        &.-boxPhone{
+            display: none;
+        }  
         &::before{
             content: '';
             position: absolute;
@@ -59,12 +86,21 @@
             width: 351px;
             height: 1px;
         }
+        @media screen and (max-width:1150px) {
+            padding: 21px 18px 21px 130px;
+        }
     }
     .box2step{
         padding: 17px 16px 35px 154px;
+        @media screen and (max-width:1150px) {
+            padding: 21px 13px 21px 130px;
+        }
     }
     .box3step{
         padding: 17px 0 16px 177px;
+        @media screen and (max-width:1150px) {
+            padding: 21px 10px 21px 130px;
+        }
     }
     &__info{
         padding: 0;
@@ -82,6 +118,14 @@
         line-height: 120%;    
         margin: 0;
         padding: 0; 
+        @media screen and (max-width:1150px) {
+            width: max-content;
+            background: linear-gradient(18.74deg, #9600FB 20%, #42E8E0 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;   
+        }
     }
     &__text{
         font-style: normal;
@@ -92,18 +136,38 @@
         margin: 17px 0 0 0;
         padding: 0;
         max-width: 142px;
+        @media screen and (max-width:1150px) {
+            max-width: none;
+        }
     }
     .bigTextStep1{
         max-width: 169px;
+        @media screen and (max-width:1150px) {
+            max-width: none;
+        }
     }
     .bigTextStep{
         max-width: 162px;
+        @media screen and (max-width:1150px) {
+            max-width: 250px;
+        }
     }
     &__img1{
         position: absolute;
         top: 45px;
         left:  3px;
         max-width: 197px;
+        @media screen and (max-width:1150px) {
+            top: 15%;
+            left: 5px;
+            max-width: 131px;
+        }
+        @media screen and (max-width:768px) {
+            top: 7%;
+        }
+        @media screen and (max-width:580px) {
+            top: 8%;
+        }
         
     }
     &__boxShadow{
@@ -120,11 +184,33 @@
         top: 35px;
         right:  590px;
         max-width: 128px;
+        @media screen and (max-width:1150px) {
+            top: 42%;
+            left: 17px;
+            max-width: 85px;
+        }
+        @media screen and (max-width:768px) {
+            top: 35%;
+        }
+        @media screen and (max-width:580px) {
+            top: 37%;
+        }
+        @media screen and (max-width:440px) {
+            max-width: 101px;
+        }
     }
     &__img3{
         position: absolute;
         top: 50px;
         right:  178px;
         max-width: 181px;
+        @media screen and (max-width:1150px) {
+            top: 75%;
+            left: 0;
+            max-width: 131px;
+        }
+        @media screen and (max-width:768px) {
+            top: 72%;
+        }
     }
 }

@@ -70,7 +70,7 @@ require( 'inc/header.php' );
             </div>
         </div>
     </section>
-    <!-- <section class="l-contentBenefits">
+    <section class="l-contentBenefits">
         <div class="b-contentBenefits">
             <h2 class="b-contentBenefits__titleFirst">
                 Еще преимущества
@@ -139,11 +139,18 @@ require( 'inc/header.php' );
                     </p>
                 </div>
             </div>
+            <div  class="b-contentBenefits__item">
+                <a href="#" class="b-contentBenefits__button hvr-fade">Смотреть все <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="9" cy="9" r="8.5" transform="rotate(90 9 9)" stroke="#07DBB4"/>
+                <path d="M11.5714 7.71387L8.67855 10.6067L5.7857 7.71387" stroke="#07DBB4"/>
+                </svg>
+                </a>
+            </div>
         </div>
     </section>
     <section class="l-wallet">
         <div class="b-wallet">
-            <div class="b-wallet__warpper">
+            <div class="b-wallet__wrapper">
                 <h2 class="b-wallet__title">
                     Создайте криптокошелек в ТГ прямо сейчас!
                 </h2>
@@ -208,6 +215,7 @@ require( 'inc/header.php' );
                 Каждый день команда Swapster расширяет перечень поддерживаемых криптовалют, чтобы вам было еще проще и удобнее работать. Сегодня в Swapster вы можете хранить, менять и обменивать такие активы:
             </p>
             <img src="/assets/img/userfiles/assets-crypto.png" alt="" class="b-assets__img">
+            <img src="/assets/img/userfiles/assetsphone.png" alt="" class="b-assets__imgPhone">
         </div>
         <div class="b-functions">
             <h2 class="b-functions__title">
@@ -253,7 +261,7 @@ require( 'inc/header.php' );
                         </p>
                     </div>
                 </div>
-                <div class="b-functions__box -bigBox">
+                <div class="b-functions__box -bigBox -boxPhone">
                     <div class="b-functions__boxRow -bigRow">
                         <img src="/assets/img/userfiles/function4.svg" alt="" class="b-functions__img1">
                         <p  class="b-functions__boxTitle -bigTitle">
@@ -266,7 +274,7 @@ require( 'inc/header.php' );
                         </p>
                     </div>
                 </div>
-                <div class="b-functions__box">
+                <div class="b-functions__box -boxPhone">
                     <div class="b-functions__boxRow">
                         <img src="/assets/img/userfiles/function5.svg" alt="" class="b-functions__img1">
                         <p  class="b-functions__boxTitle">
@@ -279,7 +287,7 @@ require( 'inc/header.php' );
                         </p>
                     </div>
                 </div>
-                <div class="b-functions__box">
+                <div class="b-functions__box -boxPhone">
                     <div class="b-functions__boxRow">
                         <img src="/assets/img/userfiles/function6.svg" alt="" class="b-functions__img1">
                         <p  class="b-functions__boxTitle">
@@ -297,7 +305,7 @@ require( 'inc/header.php' );
         <img src="/assets/img/userfiles/stepEllipse1.png" alt="" class="l-step__bg1">
         <img src="/assets/img/userfiles/stepEllipse2.png" alt="" class="l-step__bg2">
     </section>
-    <section class="l-contentNumbers">
+    <!-- <section class="l-contentNumbers">
         <div class="b-contentNumbers">
             <h2 class="b-contentNumbers__title">
                 Swapster в цифрах
@@ -454,7 +462,7 @@ require( 'inc/header.php' );
             </div>
         </div>
     </section>
-</main> -->
+</main>
 
 <?php require( 'inc/footer.php' ); ?>
 

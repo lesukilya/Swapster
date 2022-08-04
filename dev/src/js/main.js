@@ -41,12 +41,14 @@ function sliderInit() {
 function hamburger() {
   const hamburger = document.querySelector('.hamburger');
   const list = document.querySelector('.l-mainNavigation');
+  const header= document.querySelector('.l-siteHeader');
 
   hamburger.addEventListener('click', toggleClass);
 
   function toggleClass() {
     hamburger.classList.toggle('is-active');
     list.classList.toggle('-state-open');
+    header.classList.toggle('-state-active');
     scrollDisable();
   }
 

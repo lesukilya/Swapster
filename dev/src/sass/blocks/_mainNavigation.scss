@@ -4,6 +4,8 @@
   align-items: center;
   gap: 100px;
   transition: 0.3s;
+  position: relative;
+  
   @media screen and ( max-width:1150px ) {
     gap: 40px;
   }
@@ -71,6 +73,8 @@
 
 .hamburger{
   z-index: 998;
+  padding: 0;
+  margin: 0 0 12px 0;
   @media screen  and(min-width: 1025px){
     display: none;  
   }

@@ -47,15 +47,19 @@
 
 .hamburger-box {
   width: $hamburger-layer-width;
-  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 2;
+  height: $hamburger-layer-height * 3 + $hamburger-layer-spacing * 3;
   display: inline-block;
   position: relative;
+  @media screen and (max-width:768px) {
+    width: 30px;
+    height: 2px;
+  }
 }
 
 .hamburger-inner {
   display: block;
-  top: 50%;
-  margin-top: $hamburger-layer-height / -2;
+  top: 70%;
+  margin-top: 0;
 
   &,
   &::before,
@@ -68,6 +72,10 @@
     transition-property: transform;
     transition-duration: 0.15s;
     transition-timing-function: ease;
+    @media screen and (max-width:768px) {
+      width: 28px;
+      height: 2px;
+    }
   }
 
   &::before,
