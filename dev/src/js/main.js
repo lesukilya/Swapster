@@ -4,6 +4,7 @@ $(function() {
   // initFunctionExample();
   sliderInit();
   hamburger();
+  collapsible ();
 });
 
 $(window).on('resize', function() {
@@ -36,6 +37,15 @@ function sliderInit() {
     <path d="M32.9979 25.6768C33.3884 25.2863 33.3884 24.6531 32.9979 24.2626L26.6339 17.8987C26.2434 17.5081 25.6103 17.5081 25.2197 17.8987C24.8292 18.2892 24.8292 18.9223 25.2197 19.3129L30.8766 24.9697L25.2197 30.6266C24.8292 31.0171 24.8292 31.6503 25.2197 32.0408C25.6103 32.4313 26.2434 32.4313 26.6339 32.0408L32.9979 25.6768ZM15.709 25.9697H32.2908V23.9697H15.709V25.9697Z" fill="#07DBB4"/>
     </svg>
     </button>`,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ],
   });
 }
 function hamburger() {
@@ -67,4 +77,16 @@ function hamburger() {
       document.querySelector('.l-mainNavigation').classList.remove('-state-open');
     }
   };
+}
+function collapsible () {
+  const button = document.querySelector('.phoneFooter__button');
+  const column = document.querySelector('.phoneFooter__column');
+  const svg = document.querySelector('.phoneFooter__svg');
+
+  button.addEventListener('click', toggleClass);
+
+  function toggleClass () {
+    column.classList.toggle('-opened');
+    svg.classList.toggle('-open');
+  }
 }

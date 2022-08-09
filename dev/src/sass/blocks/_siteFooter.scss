@@ -3,6 +3,10 @@
     padding: 43px 0 57px 0;
     background: #1F2146;
     margin: 0;
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+        padding: 0 0 57px 0;
+    }
 }
 .b-siteFooter {
     margin: 0 auto;
@@ -10,6 +14,9 @@
     padding: 0 20px 0 20px;
     max-width: 1150px;
     box-sizing: border-box;
+    @media screen and (max-width:768px) {
+        padding: 40px 20px 0 20px;
+    }
     &__start{
         padding: 0 0 30px 0;
         margin: 0;
@@ -17,6 +24,9 @@
         justify-content: space-between;
         border-bottom: 1px solid rgba(6, 7, 27, 0.4);
         box-sizing: border-box;
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+        }
     }
     &__button{
         padding: 11px 32px;
@@ -61,6 +71,12 @@
         display: flex;
         gap: 56px;
         align-items: center;
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            align-items: start;
+            margin: 50px 0 0 0;
+            gap: 32px;
+        }
     }
     &__email{
         font-style: normal;
@@ -87,11 +103,20 @@
         padding: 0;
         display: flex;
         gap: 150px;
+        @media screen and (max-width:786px) {
+            gap: 130px;
+        }
+        @media screen and (max-width:768px) {
+            gap: 0;
+        }
     }
     &__column{
         padding: 0;
         margin: 0;
         list-style-type: none;
+        @media screen and (max-width:768px) {
+            display: none;
+        }
     }
     &__item{
         margin: 10px 0 0 0;
@@ -166,6 +191,13 @@
         list-style-type: none;
         display: flex;
         gap: 100px;
+        @media screen and (max-width:768px) {
+            gap: 40px;
+        }
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            gap: 0;
+        }
     }
     &__endLink{
         margin: 0;
@@ -189,11 +221,99 @@
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            gap: 45px;
+            justify-content: start;
+        }
     }
     .hvr-fade{
         &:hover{
             background-color: #07DBB4;
             color: #06071B;
         }
+    }
+    &__logo{
+        padding: 0;
+        margin: 0;
+        @media screen and (max-width:1150px) {
+            width: 156px;
+        }
+    }
+}
+.phoneFooter{
+    background-color: #06071B;
+    padding: 0;
+    margin: 0;
+    display: none;
+    @media screen and (max-width:768px) {
+        display: flex;
+        flex-direction: column;
+    }
+    &__button{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        margin: 0;
+        border: none;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-top: 1px solid #1F2146;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        align-items: center;
+        background: none;
+        outline: none;
+    }
+    &__svg{
+        margin: 0;
+        padding: 0;
+        transition: .2s;
+        width: 7px;
+        height: 8px;
+        &.-open{
+            transform: rotate(90deg);
+            transition: .2s;
+            margin: 0 0 11px 0;
+            transform-origin: 0 8px;
+        }
+    }
+    &__column{
+        margin: 0;
+        list-style-type: none;
+        height: 0;
+        overflow: hidden;
+        transition: .3s;
+        &.-opened{
+            height: max-content;
+            transition: .3s;
+            padding: 10px 20px 11px 42px;
+            border-top: 1px solid #1F2146;
+        }
+    }
+    &__item{
+        margin: 10px 0 0 0;
+        padding: 0;
+        &.-start{
+            margin: 0;
+        }
+        &.-start2{
+            margin: 5px 0 0 0;
+        }
+    }
+    &__link{
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 220%;
+        color: #FFFFFF;
+        @include hover-underline;
+        opacity: 0.4;
     }
 }

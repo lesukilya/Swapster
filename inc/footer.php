@@ -1,6 +1,78 @@
     </div><!--content-->
 
-    <!-- <footer class="l-siteFooter">
+    <footer class="l-siteFooter">
+      <div class="phoneFooter">
+        <button class="phoneFooter__button">О сайте<svg class="phoneFooter__svg" width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 4L0 0V8L7 4Z" fill="#07DBB4"/>
+        </svg>
+        </button >
+        <ul class="phoneFooter__column">
+          <li class="phoneFooter__item -start">
+            <a href="#" class="phoneFooter__link">О сайте</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Активы и тарифы</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Как это работает</a>  
+          </li>
+          <li class="phoneFooter__item"> 
+            <a href="#" class="phoneFooter__link">Криптобезопасность</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Статьи</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Предложения</a> 
+          </li>
+        </ul>
+      </div>
+      <div class="phoneFooter">
+        <button class="phoneFooter__button">Активы<svg class="phoneFooter__svg" width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 4L0 0V8L7 4Z" fill="#07DBB4"/>
+        </svg>
+        </button >
+        <ul class="phoneFooter__column">
+          <li class="phoneFooter__item -start">
+            <a href="#" class="phoneFooter__link">Bitcoim (BTC)</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Bitcoim (BTC)</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Binace Coin (BNB)</a>  
+          </li>
+          <li class="phoneFooter__item"> 
+            <a href="#" class="phoneFooter__link">Tron (TRX)</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Tether (USDT)</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">USD Coin (USDC)</a> 
+          </li>
+        </ul>
+      </div>
+      <div class="phoneFooter">
+        <button class="phoneFooter__button">Криптовалюты<svg class="phoneFooter__svg" width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 4L0 0V8L7 4Z" fill="#07DBB4"/>
+        </svg>
+        </button >
+        <ul class="phoneFooter__column">
+          <li class="phoneFooter__item -start">
+            <a href="#" class="phoneFooter__link">Криптовалюты</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Заработок криптовалют</a>  
+          </li>
+          <li class="phoneFooter__item">
+            <a href="#" class="phoneFooter__link">Криптобезопасность</a>  
+          </li>
+          <li class="phoneFooter__item"> 
+            <a href="#" class="phoneFooter__link">Криптоновости</a>  
+          </li>
+        </ul>
+      </div>
       <div class="b-siteFooter">
         <div class="b-siteFooter__start">
           <img src="/assets/img/userfiles/FooterLogo.svg" alt="" class="b-siteFooter__logo">
@@ -45,7 +117,7 @@
                 <a href="#" class="b-siteFooter__link">Bitcoim (BTC)</a>  
               </li>
               <li class="b-siteFooter__item">
-                <a href="#" class="b-siteFooter__link">Etherium (ETH)</a>  
+                <a href="#" class="b-siteFooter__link">Bitcoim (BTC)</a>  
               </li>
               <li class="b-siteFooter__item">
                 <a href="#" class="b-siteFooter__link">Binace Coin (BNB)</a>  
@@ -118,7 +190,7 @@
           </address>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </div><!--wrapper-->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

@@ -10,6 +10,10 @@
     right:  0;
     z-index: -9;
     opacity: 0.8;
+    @media screen and (max-width:768px) {
+        width: 700px;
+        top: -240px;
+    }
 }
 .l-step__bg2{
     position: absolute;
@@ -17,6 +21,10 @@
     left:  0;
     z-index: -9;
     opacity: 0.8;
+    @media screen and (max-width:768px) {
+        top: 8%;
+        width: 700px;
+    }
 }
 .b-step{
     width: 100%;

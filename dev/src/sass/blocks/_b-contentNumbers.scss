@@ -17,6 +17,14 @@
     margin: 0 auto;
     padding: 100px 20px 100px 20px;
     box-sizing: border-box;
+    @media screen and (max-width:1150px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width:768px) {
+        padding: 50px 20px 50px 20px;
+    }
     &__title{
         font-style: normal;
         font-weight: 500;
@@ -26,12 +34,27 @@
         color: #FFFFFF;
         margin: 0;
         padding: 0;
+        @media screen and (max-width:576px) {
+            font-size: 25px;
+        }
     }
     &__boxes{
         display: flex;
         justify-content: space-between;
         padding: 0;
         margin: 41px 0 0  0;
+        @media screen and (max-width:1150px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 20px;
+            grid-column-gap: 30px;
+        }
+        @media screen and (max-width:768px) {
+            margin: 30px 0 0  0;
+        }
+        @media screen and (max-width:576px) {
+            grid-template-columns: 1fr;;
+        }
     }
     &__column{
         margin: 0;
@@ -99,6 +122,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media screen and (max-width:1150px) {
+            max-width: 255px;
+        }
     }
     &__columnTitle{
         font-style: normal;
