@@ -177,8 +177,17 @@
         display: flex;
         gap: 20px;
         justify-content: space-between;
-        @media screen and (max-width:768px) {
-            display: none;
+      @media screen and (max-width:768px) {
+          height: 0;
+          overflow: hidden;
+          opacity: 0;
+          transition: opacity .3s;
+      }
+
+        &.-opened {
+          height: 100%;
+          opacity: 1;
+          transition: opacity .3s;
         }
     }
     &__cardVertical{
@@ -190,7 +199,6 @@
         box-sizing: border-box;
         background: rgba(255, 255, 255, 0.05);
         border-radius: 15px;
-        width: max-content;
         width: 100%;
         @media screen and (max-width:1150px) {
             padding: 15px 10px;
@@ -209,6 +217,8 @@
         width: max-content;
         text-decoration: none;
         color: #FFFFFF;
+        outline: none;
+        background: none;
         &:hover{
             svg{
                 path{

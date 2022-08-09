@@ -5,6 +5,7 @@ $(function() {
   sliderInit();
   hamburger();
   collapsible ();
+  benefitsOpen();
 });
 
 $(window).on('resize', function() {
@@ -22,7 +23,7 @@ function initFunctionExample() {
 */
 function sliderInit() {
   $('.js-slider').slick({
-    infinite: true, 
+    infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     appendArrows: $('.js-arrows'),
@@ -79,14 +80,39 @@ function hamburger() {
   };
 }
 function collapsible () {
-  const button = document.querySelector('.phoneFooter__button');
-  const column = document.querySelector('.phoneFooter__column');
-  const svg = document.querySelector('.phoneFooter__svg');
+  const buttons = document.querySelectorAll('.phoneFooter__button');
+  const columns = document.querySelectorAll('.phoneFooter__column');
+  const svgs = document.querySelectorAll('.phoneFooter__svg');
 
-  button.addEventListener('click', toggleClass);
+  buttons.forEach((button, i) => {
+    button.addEventListener('click', ()=> {
+      classAdd(i);
+      svgRotate(i);
+    });
+  });
 
-  function toggleClass () {
-    column.classList.toggle('-opened');
-    svg.classList.toggle('-open');
+  function classAdd(index) {
+    columns.forEach((column, i) => {
+      if(index === i) {
+        column.classList.toggle('-opened');
+      }
+    });
   }
+
+  function svgRotate(index) {
+    svgs.forEach((svg, i) => {
+      if(index === i) {
+        svg.classList.toggle('-opened');
+      }
+    });
+  }
+}
+
+function benefitsOpen() {
+  const button = document.querySelector('.b-contentBenefits__button');
+  const column = document.querySelector('.b-contentBenefits__cardsVertical');
+
+  button.addEventListener('click', ()=> {
+    column.classList.toggle('-opened');
+  });
 }
