@@ -182,12 +182,17 @@
           overflow: hidden;
           opacity: 0;
           transition: opacity .3s;
+          padding: 0;
+          margin: 0;
+          @media screen and (max-width:768px) {
+            flex-direction: column;
+        }
       }
-
         &.-opened {
           height: 100%;
           opacity: 1;
           transition: opacity .3s;
+          margin: 20px 0 0 0;
         }
     }
     &__cardVertical{
@@ -202,6 +207,10 @@
         width: 100%;
         @media screen and (max-width:1150px) {
             padding: 15px 10px;
+        }
+        @media screen and (max-width:768px) {
+            padding: 20px 22px;
+            max-width: 700px;
         }
     }
     &__button{
@@ -221,6 +230,7 @@
         background: none;
         &:hover{
             svg{
+                transition: .3s;
                 path{
                     stroke: #06071B;
                     transition: .3s;
@@ -238,6 +248,12 @@
                 transition: .3s;
             }
             circle{
+                transition: .3s;
+            }
+        }
+        &.-open{
+            svg{
+                transform: rotate(180deg);
                 transition: .3s;
             }
         }

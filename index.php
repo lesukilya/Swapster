@@ -302,11 +302,11 @@ require( 'inc/header.php' );
                 </div>
             </div>
             <div  class="b-functions__item">
-                <a href="#" class="b-functions__button hvr-fade">Смотреть все <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button class="b-functions__button hvr-fade">Смотреть все <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="9" cy="9" r="8.5" transform="rotate(90 9 9)" stroke="#07DBB4"/>
                 <path d="M11.5714 7.71387L8.67855 10.6067L5.7857 7.71387" stroke="#07DBB4"/>
                 </svg>
-                </a>
+                </button>
             </div>
         </div>
         <img src="/assets/img/userfiles/stepEllipse1.png" alt="" class="l-step__bg1">

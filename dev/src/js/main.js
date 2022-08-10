@@ -6,6 +6,7 @@ $(function() {
   hamburger();
   collapsible ();
   benefitsOpen();
+  functionOpen();
 });
 
 $(window).on('resize', function() {
@@ -114,5 +115,18 @@ function benefitsOpen() {
 
   button.addEventListener('click', ()=> {
     column.classList.toggle('-opened');
+    button.classList.toggle('-open');
+  });
+}
+
+function functionOpen() {
+  const button = document.querySelector('.b-functions__button');
+  const columns = document.querySelectorAll('.-boxPhone');
+
+  button.addEventListener('click', ()=> {
+    button.classList.toggle('-open');
+    columns.forEach((column,i) => {
+
+    })
   });
 }
