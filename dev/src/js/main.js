@@ -125,8 +125,8 @@ function functionOpen() {
 
   button.addEventListener('click', ()=> {
     button.classList.toggle('-open');
-    columns.forEach((column,i) => {
-
-    })
+    columns.forEach((column) => {
+      column.classList.toggle('-opened');
+    });
   });
 }
