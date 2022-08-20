@@ -18,7 +18,9 @@
     flex-direction: column;
     position: relative;
     box-sizing: border-box;
-
+    &.-actives{
+        padding: 182px 20px 108px 20px;
+    }
     @media screen and (max-width:768px) {
         align-items: center;
         padding: 72px 20px 60px 20px;
@@ -59,6 +61,9 @@
             font-size: 30px;
             line-height: 36px;
         }
+        &.-actives{
+            max-width: 829px;
+        }
     }
 
     &__text{
@@ -73,7 +78,7 @@
             padding: 0;
             font-style: normal;
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
             line-height: 150%;
             color: #FFFFFF;
             opacity: 0.6;
@@ -91,6 +96,9 @@
             @media screen and (max-width:768px) {
               max-width: none;
             }
+        }
+        &.-actives{
+            max-width: 559px;
         }
     }
     &__link{
@@ -147,8 +155,18 @@
           padding: 0;
           margin: 10px 0 0 0;
         }
-
-
+        &.-actives{
+            right: -140px;
+            top: 23%;
+            z-index: -1;
+        }
+    }
+    &__stroke{
+        width: 100%;
+        height: 40px;
+        background-image: url(/assets/img/userfiles/strokeActives.png);
+        background-repeat: repeat-x;
+        z-index: 999;
     }
 }
 

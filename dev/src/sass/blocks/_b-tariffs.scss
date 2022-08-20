@@ -1,0 +1,146 @@
+.l-tariffs{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.b-tariffs{
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.6;
+        max-width: 746px;
+        padding: 0;
+        margin: 20px;
+    }
+    &__start{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+    }
+    &__info{
+        margin: 40px 0 0 0;
+        padding: 13px 20px 13px 20px;
+        background: linear-gradient(65.81deg, #4E067E 0%, #42E8E0 129.73%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__middle{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+        margin: 0 0 0 100px;
+    }
+    &__item{
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: right;
+        color: #FFFFFF;    
+        max-width: 111px;
+        &.-big{
+            max-width: 133px;
+        }
+    }
+    &__end{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+        margin: 0 0 0 70px;
+        li{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            text-align: right;
+            color: #FFFFFF;
+            padding: 0;
+            margin: 0;
+            max-width: 111px;
+        }
+    }
+    &__img{
+        height: 22px;
+        width: 22px;
+        padding: 0;
+        margin: 0;
+    }
+    &__crypto{
+        padding: 30px 0 20px 0;
+        display: flex;
+        border-bottom: 1px solid #1C1D39;
+    }
+    &__row{
+        display: flex;
+        padding: 0;
+        margin: 0 0 0 10px;
+        list-style-type: none;
+        gap: 32px;
+    }
+    &__rowItem{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 0; 
+        margin: 0;
+        text-align: left;
+        span{
+            margin: 0 0 0 5px;
+            opacity: 0.4;
+        }
+        &.-first{
+            margin: 0 0 0 45px;
+        }
+        &.-second{
+            margin: 0 0 0 77px;
+        }
+        &.-third{
+            margin: 0 0 0 83px;
+        }
+        &.-fourth{
+            margin: 0 0 0 83px;
+        }
+        &.-fifth{
+            margin: 0 0 0 60px;
+        }
+        &.-sixth{
+            margin: 0 0 0 54px;
+        }
+        &.-cryptics{
+            width: 103px;
+        }
+    }
+}

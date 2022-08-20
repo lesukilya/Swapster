@@ -49,22 +49,22 @@
 
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Главная</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Активы и тарифы</a>
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == 'actives' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="actives.php">Активы и тарифы</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Как это работает</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Крипто-проверкиная</a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Блог </a>
             </li>
-            <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Поддержка </a>
             </li>
           </ul>

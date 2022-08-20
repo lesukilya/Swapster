@@ -1,0 +1,102 @@
+.l-cryptoWallet{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.b-cryptoWallet{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px 100px 20px;
+    box-sizing: border-box;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        max-width:  695px;
+    }
+    &__cards{
+        margin: 40px 0 0 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+    &__card{
+        height: 285px;
+        margin: 0;
+        padding: 35px 20px 0 20px;
+        background: #121326;
+        border-radius: 15px;
+        &.-big{
+            height: 305px;
+        }
+    }
+    &__cardStart{
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    &__img{
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        margin: 0;
+    }
+    &__cardTitle{
+        padding: 0;
+        margin: 0 0 0 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    &__cardInfo{
+        padding: 20px 0 0 0;
+        margin: 20px 0 0 0;
+        position: relative;
+        &::before{
+            content: '';
+            background-color: #1C1D39;
+            height: 1px;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            left: 0;
+            position: absolute;
+            
+        }
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        opacity: 0.6;
+        padding: 0;
+        margin: 10px 0 0 0;
+        max-width: 492px;
+        &.-small{
+            margin: 0;
+        }
+    }
+    &__infoTitle{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+    }
+}
