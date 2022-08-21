@@ -114,22 +114,26 @@ function benefitsOpen() {
   const button = document.querySelector('.b-contentBenefits__button');
   const column = document.querySelector('.b-contentBenefits__cardsVertical');
 
-  button.addEventListener('click', ()=> {
-    column.classList.toggle('-opened');
-    button.classList.toggle('-open');
-  });
+  if (button) {
+    button.addEventListener('click', ()=> {
+      column.classList.toggle('-opened');
+      button.classList.toggle('-open');
+    });
+  }
 }
 
 function functionOpen() {
   const button = document.querySelector('.b-functions__button');
   const columns = document.querySelectorAll('.-boxPhone');
 
-  button.addEventListener('click', ()=> {
-    button.classList.toggle('-open');
-    columns.forEach((column) => {
-      column.classList.toggle('-opened');
+  if (button) {
+    button.addEventListener('click', ()=> {
+      button.classList.toggle('-open');
+      columns.forEach((column) => {
+        column.classList.toggle('-opened');
+      });
     });
-  });
+  }
 }
 
 function collapse () {
@@ -137,12 +141,14 @@ function collapse () {
   const columns = document.querySelectorAll('.l-tariffs__column');
   const svgs = document.querySelectorAll('.l-tariffs__svg');
 
-  buttons.forEach((button, i) => {
-    button.addEventListener('click', ()=> {
-      classAdd(i);
-      svgRotate(i);
+  if (buttons) {
+    buttons.forEach((button, i) => {
+      button.addEventListener('click', ()=> {
+        classAdd(i);
+        svgRotate(i);
+      });
     });
-  });
+  }
 
   function classAdd(index) {
     columns.forEach((column, i) => {
