@@ -7,6 +7,7 @@ require( 'inc/header.php' );
 
 <main class="l-contentText">
     <section class="l-firstScreen">
+        <img src="/assets/img/userfiles/Ellipse1Actives.png" alt=""  class="l-firstScreen__bg">
         <div class="b-firstScreen -actives">
             <h1 class="b-firstScreen__title -actives">
                 Постоянно пополняющиеся блокчейны и токены
@@ -17,9 +18,9 @@ require( 'inc/header.php' );
                 </p>
             </div>
             <img src="/assets/img/userfiles/monetsActives.png" alt="" class="b-firstScreen__img -actives">
+            <img src="/assets/img/userfiles/monetsPhone.png" alt="" class="b-firstScreen__imgPhone">
         </div>
         <div class="b-firstScreen__stroke">
-            
         </div>
     </section> 
     <sectoin class="l-cryptoWallet">
@@ -131,121 +132,172 @@ require( 'inc/header.php' );
                     </ul>
                 </div>
                 <div class="b-tariffs__crypto">
-                    <img src="/assets/img/userfiles/BTCactives.svg" alt="" class="b-tariffs__img">
-                    <ul class="b-tariffs__row">
-                        <li class="b-tariffs__rowItem -cryptics">
-                            Bitcoin <span>BTC</span>
+                    <div class="b-tariffs__cryptoStart">
+                        <img src="/assets/img/userfiles/BTCactives.svg" alt=""  class="b-tariffs__img">
+                        <p>Bitcoin <span>BTC</span></p>
+                    </div>
+                    <ul class="b-tariffs__cryptoMiddle">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00008371
                         </li>
-                        <li class="b-tariffs__rowItem -first">
-                            0.00008371 
+                        <li class="b-tariffs__rowItem">
+                            0
                         </li>
-                        <li class="b-tariffs__rowItem -second">
-                            0 
-                        </li>
-                        <li class="b-tariffs__rowItem -third">
-                            -    
-                        </li>
-                        <li class="b-tariffs__rowItem -fourth">
+                        <li class="b-tariffs__rowItem">
                             -
                         </li>
-                        <li class="b-tariffs__rowItem -fifth">
-                            0.00006542    
+                        <li class="b-tariffs__rowItem">
+                            -
+                        </li>                        
+                    </ul>
+                    <ul class="b-tariffs__cryptoEnd">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00006542
                         </li>
-                        <li class="b-tariffs__rowItem -sixth">
+                        <li class="b-tariffs__rowItem">
                             0.4%
                         </li>
                         <li class="b-tariffs__rowItem">
-                            0.00003456    
-                        </li>
+                            0.00003456
+                        </li>                        
                     </ul>
                 </div>
                 <div class="b-tariffs__crypto">
-                    <img src="/assets/img/userfiles/ETHactives.svg" alt="" class="b-tariffs__img">
-                    <ul class="b-tariffs__row">
-                        <li class="b-tariffs__rowItem -cryptics">
-                            Ethereum <span>ETN</span>
+                <div class="b-tariffs__cryptoStart">
+                        <img src="/assets/img/userfiles/ETHactives.svg" alt=""  class="b-tariffs__img">
+                        <p>Ethereum <span>ETN</span></p>
+                    </div>
+                    <ul class="b-tariffs__cryptoMiddle">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00008371
                         </li>
-                        <li class="b-tariffs__rowItem -first">
-                            0.00008371 
+                        <li class="b-tariffs__rowItem">
+                            0
                         </li>
-                        <li class="b-tariffs__rowItem -second">
-                            0 
-                        </li>
-                        <li class="b-tariffs__rowItem -third">
-                            -    
-                        </li>
-                        <li class="b-tariffs__rowItem -fourth">
+                        <li class="b-tariffs__rowItem">
                             -
                         </li>
-                        <li class="b-tariffs__rowItem -fifth">
-                            0.00006542    
+                        <li class="b-tariffs__rowItem">
+                            -
+                        </li>                        
+                    </ul>
+                    <ul class="b-tariffs__cryptoEnd">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00006542
                         </li>
-                        <li class="b-tariffs__rowItem -sixth">
+                        <li class="b-tariffs__rowItem">
                             0.4%
                         </li>
                         <li class="b-tariffs__rowItem">
-                            0.00003456    
-                        </li>
+                            0.00003456
+                        </li>                        
                     </ul>
                 </div>
                 <div class="b-tariffs__crypto">
-                    <img src="/assets/img/userfiles/Tronactives.svg" alt="" class="b-tariffs__img">
-                    <ul class="b-tariffs__row">
-                        <li class="b-tariffs__rowItem -cryptics">
-                            BNB <span>BNB</span>
+                <div class="b-tariffs__cryptoStart">
+                        <img src="/assets/img/userfiles/Tronactives.svg" alt=""  class="b-tariffs__img">
+                        <p>BNB <span>BNB</span></p>
+                    </div>
+                    <ul class="b-tariffs__cryptoMiddle">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00008371
                         </li>
-                        <li class="b-tariffs__rowItem -first">
-                            0.00008371 
+                        <li class="b-tariffs__rowItem">
+                            0
                         </li>
-                        <li class="b-tariffs__rowItem -second">
-                            0 
-                        </li>
-                        <li class="b-tariffs__rowItem -third">
-                            -    
-                        </li>
-                        <li class="b-tariffs__rowItem -fourth">
+                        <li class="b-tariffs__rowItem">
                             -
                         </li>
-                        <li class="b-tariffs__rowItem -fifth">
-                            0.00006542    
+                        <li class="b-tariffs__rowItem">
+                            -
+                        </li>                        
+                    </ul>
+                    <ul class="b-tariffs__cryptoEnd">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00006542
                         </li>
-                        <li class="b-tariffs__rowItem -sixth">
+                        <li class="b-tariffs__rowItem">
                             0.4%
                         </li>
                         <li class="b-tariffs__rowItem">
-                            0.00003456    
-                        </li>
+                            0.00003456
+                        </li>                        
                     </ul>
                 </div>
                 <div class="b-tariffs__crypto">
-                    <img src="/assets/img/userfiles/Binanceactives.svg" alt="" class="b-tariffs__img">
-                    <ul class="b-tariffs__row">
-                        <li class="b-tariffs__rowItem -cryptics">
-                            Tron <span>TRX</span>
+                <div class="b-tariffs__cryptoStart">
+                        <img src="/assets/img/userfiles/Binanceactives.svg" alt=""  class="b-tariffs__img">
+                        <p>Tron <span>TRX</span></p>
+                    </div>
+                    <ul class="b-tariffs__cryptoMiddle">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00008371
                         </li>
-                        <li class="b-tariffs__rowItem -first">
-                            0.00008371 
+                        <li class="b-tariffs__rowItem">
+                            0
                         </li>
-                        <li class="b-tariffs__rowItem -second">
-                            0 
-                        </li>
-                        <li class="b-tariffs__rowItem -third">
-                            -    
-                        </li>
-                        <li class="b-tariffs__rowItem -fourth">
+                        <li class="b-tariffs__rowItem">
                             -
                         </li>
-                        <li class="b-tariffs__rowItem -fifth">
-                            0.00006542    
+                        <li class="b-tariffs__rowItem">
+                            -
+                        </li>                        
+                    </ul>
+                    <ul class="b-tariffs__cryptoEnd">
+                        <li class="b-tariffs__rowItem -big ">
+                            0.00006542
                         </li>
-                        <li class="b-tariffs__rowItem -sixth">
+                        <li class="b-tariffs__rowItem">
                             0.4%
                         </li>
                         <li class="b-tariffs__rowItem">
-                            0.00003456    
-                        </li>
+                            0.00003456
+                        </li>                        
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="l-tariffs__phone">
+            <button class="l-tariffs__button">
+                <div class="l-tariffs__buttonInfo">    
+                    <img src="/assets/img/userfiles/BTCactives.svg" alt=""  class="l-tariffs__img">
+                    <p>Bitcoin <span>BTC</span></p>
+                </div>
+                <svg class="l-tariffs__svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
+                </svg>
+            </button>
+            <div class="l-tariffs__column">
+
+            </div>
+        </div>
+        <div class="l-tariffs__phone">
+            <button class="l-tariffs__button">
+                <div class="l-tariffs__buttonInfo">    
+                    <img src="/assets/img/userfiles/BTCactives.svg" alt=""  class="l-tariffs__img">
+                    <p>Bitcoin <span>BTC</span></p>
+                </div>
+                <svg class="l-tariffs__svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
+                </svg>
+            </button>
+            <div class="l-tariffs__column">
+                
+            </div>
+        </div>
+    </section>
+    <section class="l-wallet ">
+        <div class="b-wallet -actives">
+            <div class="b-wallet__wrapper">
+                <h2 class="b-wallet__title">
+                    Создайте криптокошелек в ТГ прямо сейчас!
+                </h2>
+                <p  class="b-wallet__text">
+                    Превратите ваш ТГ аккаунт в мультивалютный кошелек и биржу одновременно всего в три простых клика. Это займет не больше 30 секунд.
+                </p>
+                <a href="#" class="b-wallet__link button hvr-grow">Запустить Swapster</a>
+                <img src="/assets/img/userfiles/wallet-phone.png" alt="" class="b-wallet__phoneImg">
+                <img src="/assets/img/userfiles/wallet-crypto.png" alt="" class="b-wallet__cryptoImg">
             </div>
         </div>
     </section>

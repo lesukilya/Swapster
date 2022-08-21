@@ -28,15 +28,41 @@
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 30px;
         grid-column-gap: 30px;
+        @media screen and (max-width:950px) {
+            grid-template-columns: 1fr;
+        }
     }
     &__card{
         height: 285px;
         margin: 0;
         padding: 35px 20px 0 20px;
+        box-sizing: border-box;
         background: #121326;
         border-radius: 15px;
         &.-big{
             height: 305px;
+        }
+        @media screen and (max-width:950px) {
+            height: 220px;
+        }
+        @media screen and (max-width:768px) {
+            height: 260px;
+            padding: 25px 10px 0 10px;
+        }
+        @media screen and (max-width:600px) {
+            height: 340px !important;
+        }
+        @media screen and (max-width:410px) {
+            height: 380px !important;
+        }
+        @media screen and (max-width:360px) {
+            height: 410px !important;
+        }
+        @media screen and (max-width:339px) {
+            height: 440px !important;
+        }
+        @media screen and (max-width:329px) {
+            height: 470px !important;
         }
     }
     &__cardStart{
@@ -63,6 +89,10 @@
         padding: 20px 0 0 0;
         margin: 20px 0 0 0;
         position: relative;
+        @media screen and (max-width:768px) {
+            padding: 14px 0 0 0;
+            margin: 10px 0 0 0;
+        }
         &::before{
             content: '';
             background-color: #1C1D39;
@@ -88,6 +118,12 @@
         max-width: 492px;
         &.-small{
             margin: 0;
+        }
+        @media screen and (max-width:950px) {
+            max-width: none;
+        }
+        @media screen and (max-width:768px) {
+            margin: 5px 0 0 0;
         }
     }
     &__infoTitle{

@@ -7,6 +7,7 @@
         top: 0;
         right: 0;
         position: absolute;
+        z-index: -1;
     }
 }
 .b-firstScreen{
@@ -20,6 +21,29 @@
     box-sizing: border-box;
     &.-actives{
         padding: 182px 20px 108px 20px;
+        @media screen and (max-width:768px) {
+            align-items: center;
+            padding: 72px 20px 0 20px;
+        }
+        @media screen and (max-width:576px) {
+            display: block;
+            padding: 72px 20px 310px 20px;
+        }
+        @media screen and (max-width:500px) {
+            padding: 72px 20px 287px 20px;
+        }
+        @media screen and (max-width:440px) {
+            padding: 72px 20px 250px 20px;
+        }
+        @media screen and (max-width:394px) {
+            padding: 72px 20px 220px 20px;
+        }
+        @media screen and (max-width:340px) {
+            padding: 72px 20px 183px 20px;
+        }
+        @media screen and (max-width:320px) {
+            padding: 72px 20px 139px 20px;
+        }
     }
     @media screen and (max-width:768px) {
         align-items: center;
@@ -63,6 +87,15 @@
         }
         &.-actives{
             max-width: 829px;
+            @media screen and (max-width:1050px) {
+                font-size: 35px;
+                max-width: 490px;
+                line-height: 120%;
+            }
+            @media screen and (max-width:768px) {
+                font-size: 30px;
+                max-width: 570px;
+            }
         }
     }
 
@@ -99,6 +132,36 @@
         }
         &.-actives{
             max-width: 559px;
+            @media screen and (max-width:1050px) {
+                max-width: 360px;
+            }
+            @media screen and (max-width:768px) {
+                max-width: 400px;
+
+            }
+        }
+    }
+    &__imgPhone{
+        display: none;
+        position: absolute;
+        z-index: -1;
+        @media screen and (max-width:576px) {
+            display: flex;
+            left: -5px;
+            width: 101%;
+            top: 160px;
+        }
+        @media screen and (max-width:500px) {
+            top: 195px;
+        }
+        @media screen and (max-width:440px) {
+            top: 240px;
+        }
+        @media screen and (max-width:394px) {
+            top: 265px;
+        }
+        @media screen and (max-width:340px) {
+            top: 270px;
         }
     }
     &__link{
@@ -159,6 +222,17 @@
             right: -140px;
             top: 23%;
             z-index: -1;
+            @media screen and (max-width:1150px) {
+                right: 0;
+                max-width: 500px;
+            }
+            @media screen and (max-width:950px) {
+                max-width: 400px;
+                top: 32%
+            }
+            @media screen and (max-width:576px) {
+                display: none;
+            }
         }
     }
     &__stroke{
@@ -166,7 +240,7 @@
         height: 40px;
         background-image: url(/assets/img/userfiles/strokeActives.png);
         background-repeat: repeat-x;
-        z-index: 999;
+        z-index: 10;
     }
 }
 

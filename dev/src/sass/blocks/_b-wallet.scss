@@ -10,6 +10,9 @@
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
+    &.-actives{
+       margin: 100px auto;
+    }
     &__wrapper{
         padding: 56px 26px 48px 26px;
         box-sizing: border-box;

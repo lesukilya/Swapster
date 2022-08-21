@@ -7,6 +7,7 @@ $(function() {
   collapsible ();
   benefitsOpen();
   functionOpen();
+  collapse();
 });
 
 $(window).on('resize', function() {
@@ -129,4 +130,33 @@ function functionOpen() {
       column.classList.toggle('-opened');
     });
   });
+}
+
+function collapse () {
+  const buttons = document.querySelectorAll('.l-tariffs__button');
+  const columns = document.querySelectorAll('.l-tariffs__column');
+  const svgs = document.querySelectorAll('.l-tariffs__svg');
+
+  buttons.forEach((button, i) => {
+    button.addEventListener('click', ()=> {
+      classAdd(i);
+      svgRotate(i);
+    });
+  });
+
+  function classAdd(index) {
+    columns.forEach((column, i) => {
+      if(index === i) {
+        column.classList.toggle('-opened');
+      }
+    });
+  }
+
+  function svgRotate(index) {
+    svgs.forEach((svg, i) => {
+      if(index === i) {
+        svg.classList.toggle('-opened');
+      }
+    });
+  }
 }
