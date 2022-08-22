@@ -146,7 +146,16 @@ function collapse () {
       button.addEventListener('click', ()=> {
         classAdd(i);
         svgRotate(i);
+        classButton(i);
       });
+    });
+  } 
+
+  function classButton(index) {
+    buttons.forEach((button, i) => {
+      if(index === i) {
+        button.classList.toggle('-openb');
+      }
     });
   }
 

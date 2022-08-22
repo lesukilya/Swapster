@@ -267,23 +267,129 @@ require( 'inc/header.php' );
                 <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
                 </svg>
             </button>
-            <div class="l-tariffs__column">
-
-            </div>
+            <ul class="l-tariffs__column">
+                <li>
+                    <p>Минимальная сумма пополнения </p> <span>0.00008371</span>
+                </li>
+                <li>
+                    <p>Комиссия на пополнение </p> <span>0</span>
+                </li>
+                <li>
+                    <p>Минимальная сумма вывода </p> <span>-</span>
+                </li>
+                <li>
+                    <p>Максимальная сумма вывода</p> <span>-</span>
+                </li>
+                <li>
+                    <p>Комиссия на вывод </p> <span>0.00006542</span>                
+                </li>
+                <li>
+                    <p>Комиссия на обмен</p> <span>0.4%</span>                
+                </li>
+                <li>
+                    <p>Цена AML-проверки</p> <span>0.00003456</span>
+                </li>
+            </ul>
         </div>
         <div class="l-tariffs__phone">
             <button class="l-tariffs__button">
                 <div class="l-tariffs__buttonInfo">    
-                    <img src="/assets/img/userfiles/BTCactives.svg" alt=""  class="l-tariffs__img">
-                    <p>Bitcoin <span>BTC</span></p>
+                    <img src="/assets/img/userfiles/ETHactives.svg" alt=""  class="l-tariffs__img">
+                    <p>Ethereum <span>ETN</span></p>
                 </div>
                 <svg class="l-tariffs__svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
                 </svg>
             </button>
-            <div class="l-tariffs__column">
-                
-            </div>
+            <ul class="l-tariffs__column">
+                <li>
+                    <p>Минимальная сумма пополнения </p> <span>0.00008371</span>
+                </li>
+                <li>
+                    <p>Комиссия на пополнение </p> <span>0</span>
+                </li>
+                <li>
+                    <p>Минимальная сумма вывода </p> <span>-</span>
+                </li>
+                <li>
+                    <p>Максимальная сумма вывода</p> <span>-</span>
+                </li>
+                <li>
+                    <p>Комиссия на вывод </p> <span>0.00006542</span>                
+                </li>
+                <li>
+                    <p>Комиссия на обмен</p> <span>0.4%</span>                
+                </li>
+                <li>
+                    <p>Цена AML-проверки</p> <span>0.00003456</span>
+                </li>
+            </ul>
+        </div><div class="l-tariffs__phone">
+            <button class="l-tariffs__button">
+                <div class="l-tariffs__buttonInfo">    
+                    <img src="/assets/img/userfiles/Tronactives.svg" alt=""  class="l-tariffs__img">
+                    <p>BNB <span>BNB</span></p>
+                </div>
+                <svg class="l-tariffs__svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
+                </svg>
+            </button>
+            <ul class="l-tariffs__column">
+                <li>
+                    <p>Минимальная сумма пополнения </p> <span>0.00008371</span>
+                </li>
+                <li>
+                    <p>Комиссия на пополнение </p> <span>0</span>
+                </li>
+                <li>
+                    <p>Минимальная сумма вывода </p> <span>-</span>
+                </li>
+                <li>
+                    <p>Максимальная сумма вывода</p> <span>-</span>
+                </li>
+                <li>
+                    <p>Комиссия на вывод </p> <span>0.00006542</span>                
+                </li>
+                <li>
+                    <p>Комиссия на обмен</p> <span>0.4%</span>                
+                </li>
+                <li>
+                    <p>Цена AML-проверки</p> <span>0.00003456</span>
+                </li>
+            </ul>
+        </div><div class="l-tariffs__phone">
+            <button class="l-tariffs__button">
+                <div class="l-tariffs__buttonInfo">    
+                    <img src="/assets/img/userfiles/Binanceactives.svg" alt=""  class="l-tariffs__img">
+                    <p>Tron  <span>TRX</span></p>
+                </div>
+                <svg class="l-tariffs__svg" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 4L0.5 0L0.5 8L7.5 4Z" fill="#07DBB4"/>
+                </svg>
+            </button>
+            <ul class="l-tariffs__column">
+                <li>
+                    <p>Минимальная сумма пополнения </p> <span>0.00008371</span>
+                </li>
+                <li>
+                    <p>Комиссия на пополнение </p> <span>0</span>
+                </li>
+                <li>
+                    <p>Минимальная сумма вывода </p> <span>-</span>
+                </li>
+                <li>
+                    <p>Максимальная сумма вывода</p> <span>-</span>
+                </li>
+                <li>
+                    <p>Комиссия на вывод </p> <span>0.00006542</span>                
+                </li>
+                <li>
+                    <p>Комиссия на обмен</p> <span>0.4%</span>                
+                </li>
+                <li>
+                    <p>Цена AML-проверки</p> <span>0.00003456</span>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="l-wallet ">
