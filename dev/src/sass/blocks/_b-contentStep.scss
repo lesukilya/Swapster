@@ -1,0 +1,105 @@
+.l-contentStep{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.b-contentStep{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px 100px 20px;
+    box-sizing: border-box;
+    max-width: 1150px;
+    &__title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0 ;
+    }
+    &__cards{
+        display: flex;
+        padding: 0;
+        margin: 40px 0 0 0;
+        justify-content: space-between;
+    }
+    &__card{
+        background-color: rgba(40, 42, 74, 0.6);
+        border-radius: 15px;
+        background-image: url(/assets/img/userfiles/stepBgHow.png);
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        &.-one{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line1.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 111px;
+            }
+        }
+        &.-two{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line2.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 229px;
+            }
+        }
+        &.-three{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line3.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 353px;
+            }
+        }
+    }
+    &__info{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+    &__infoTitle{
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        background: linear-gradient(323.06deg, #A113FF 44.26%, #42E8E0 89.05%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    &__text{
+        margin: 70px 0 0 0;
+        padding: 0;
+        max-width: 169px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+}

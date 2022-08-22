@@ -1,0 +1,199 @@
+.l-contentReplenishment{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.b-contentReplenishment{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px 100px 20px;
+    box-sizing: border-box;
+    max-width: 1150px;
+    &__textSide{
+        padding: 0;
+        margin: 20px 0 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__textTitle{
+        max-width: 917px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.6;
+        padding: 0;
+        margin: 0;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0 ;
+    }
+    &__cards{
+        display: flex;
+        padding: 0;
+        margin: 40px 0 0 0;
+        justify-content: space-between;
+    }
+    &__line{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        &.-one{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line1.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 111px;
+                z-index: 10;
+            }
+        }
+        &.-two{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line2.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 229px;
+                z-index: 10;
+            }
+        }
+        &.-three{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/line3.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 353px;
+                z-index: 10;
+            }
+        }
+    }
+    &__card{
+        background-color: rgba(40, 42, 74, 0.6);
+        border-radius: 15px;
+        background-image: url(/assets/img/userfiles/stepBgHow.png);
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        &.-oneImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Replenishment11.png);
+                position: absolute;
+                top: 55%;
+                left: 10px;
+                height: 23px;
+                width: 85px;
+            }
+        }
+        &.-twoImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Replenishment12.png);
+                position: absolute;
+                top: 65%;
+                left: 15px;
+                height: 48px;
+                width: 162px;
+            }
+        }
+        &.-threeImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Replenishment13.png);
+                position: absolute;
+                top: 47%;
+                left: 10px;
+                height: 25px;
+                width: 157px;
+            }
+        }
+    }
+    &__info{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+    &__infoTitle{
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        background: linear-gradient(323.06deg, #A113FF 44.26%, #42E8E0 89.05%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        &.-threeImgTwo{
+            padding: 0;
+            margin: 0;
+            position: relative;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Replenishment14.png);
+                position: absolute;
+                top: 466%;
+                left: -188px;
+                height: 25px;
+                width: 157px;
+            }
+        }
+        
+    }
+    &__text{
+        margin: 70px 0 0 0;
+        padding: 0;
+        max-width: 169px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        &.-last{
+            margin: 30px 0 0 0;
+        }
+    }
+    &__endText{
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: right;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+}

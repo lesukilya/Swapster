@@ -45,6 +45,9 @@
             padding: 72px 20px 139px 20px;
         }
     }
+    &.-how{
+        padding: 182px 20px 56px 20px;
+    }
     @media screen and (max-width:768px) {
         align-items: center;
         padding: 72px 20px 60px 20px;
@@ -97,6 +100,9 @@
                 max-width: 570px;
             }
         }
+        &.-how{
+            max-width: 610px;
+        }
     }
 
     &__text{
@@ -140,6 +146,15 @@
 
             }
         }
+        &.-how{
+            max-width: 491px;
+        }
+    }
+    &__imgMonets{
+        position: absolute;
+        right:-30px;
+        top: 25%;
+        z-index: -1;
     }
     &__imgPhone{
         display: none;
@@ -233,6 +248,11 @@
             @media screen and (max-width:576px) {
                 display: none;
             }
+        }
+        &.-how{
+            right: 120px;
+            top: 33%;
+            z-index: -1;
         }
     }
     &__stroke{

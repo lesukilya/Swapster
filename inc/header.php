@@ -55,8 +55,8 @@
             <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == 'actives' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="actives.php">Активы и тарифы</a>
             </li>
-            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Как это работает</a>
+            <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == 'how' ) ? ' -state_active' : ''; ?>">
+              <a class="b-mainNavigation__link" href="how.php">Как это работает</a>
             </li>
             <li class="b-mainNavigation__item hvr-underline-from-left<?php echo ( $uri == '' ) ? ' -state_active' : ''; ?>">
               <a class="b-mainNavigation__link" href="index.html">Крипто-проверкиная</a>
