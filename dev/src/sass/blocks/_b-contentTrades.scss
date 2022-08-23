@@ -1,0 +1,212 @@
+.l-contentTrades{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.b-contentTrades{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.6;
+        padding: 0;
+        margin: 40px 0 0 0 ;
+    }
+    &__cards{
+        margin: 40px 0 0 0 ;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+    }
+    &__card{
+        background-color: rgba(40, 42, 74, 0.6);
+        border-radius: 15px;
+        background-image: url(/assets/img/userfiles/stepBgHow.png);
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        &.-oneImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardInfo1.png);
+                position: absolute;
+                top: 67%;
+                left: 30px;
+                height: 28px;
+                width: 136px;
+            }
+        }
+        &.-fifthImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardInfo5.png);
+                position: absolute;
+                top: 55%;
+                left: 5px;
+                height: 82px;
+                width: 190px;
+            }
+        }
+        &.-sixthImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardInfo6.png);
+                position: absolute;
+                top: 65%;
+                left: 10px;
+                height: 36px;
+                width: 158px;
+            }
+        }
+    }
+    &__info{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+    &__infoTitle{
+        background: linear-gradient(323.06deg, #A113FF 44.26%, #42E8E0 89.05%);
+        -webkit-background-clip: text;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        padding: 0;
+        margin: 0;
+    }
+    &__infoText{
+        max-width: 149px;
+        padding: 0;
+        margin: 50px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;  
+        &.-big{
+            font-size: 16px;
+            margin: 50px 5px 0 0;
+        }      
+    }
+    &__cardLine{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        z-index: 10;
+        &.-one{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline1.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 83px;
+                z-index: 10;
+            }
+        }
+        &.-two{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardline2.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 130px;
+                z-index: 10;
+            }
+        }
+        &.-three{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardline3.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 179px;
+                z-index: 10;
+            }
+        }
+        &.-fourth{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardline4.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 243px;
+                z-index: 10;
+            }
+        }
+        &.-fifth{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardline5.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 292px;
+                z-index: 10;
+            }
+        }
+        &.-sixth{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/cardline6.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 350px;
+                z-index: 10;
+            }
+        }
+
+    }
+}

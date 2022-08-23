@@ -1,0 +1,243 @@
+.l-contentWithdrawals{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.b-contentWithdrawals{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 124px 20px 100px 20px;
+    box-sizing: border-box;
+    &__title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: justify;
+        color: #FFFFFF;
+        opacity: 0.6;
+        padding: 0;
+        margin: 20px 0 0 0;
+        &.-middle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 30px 0 0 0;
+            li:first-child {
+                list-style-type: none;
+                margin: 0 0 0 -35px;
+            }
+        }
+    }
+    &__textMiddle{
+        margin: 10px 0 0 0;
+        padding: 0;
+        width: 545px;
+    }
+    &__cardsFirst{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 65px 0 30px 0;
+        gap: 30px;
+    }
+    &__cardsSecond{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 30px 0 0 0;
+        gap: 30px;
+    }
+    &__card{
+        background-color: rgba(40, 42, 74, 0.6);
+        border-radius: 15px;
+        background-image: url(/assets/img/userfiles/stepBgHow.png);
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        &.-oneImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/info1.png);
+                position: absolute;
+                top: 57%;
+                left: 30px;
+                height: 27px;
+                width: 139px;
+            }
+        }
+        &.-twoImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/info2.png);
+                position: absolute;
+                top: 61%;
+                left: 10px;
+                height: 50px;
+                width: 165px;
+            }
+        }
+        &.-threeImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/info3.png);
+                position: absolute;
+                top: 25%;
+                left: 10px;
+                height: 39px;
+                width: 195px;
+            }
+        }
+        &.-fourthImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/info4.png);
+                position: absolute;
+                top: 63%;
+                left: 20px;
+                height: 30px;
+                width: 175px;
+            }
+        }
+        &.-fifthImg{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/info5.png);
+                position: absolute;
+                top: 66%;
+                left: 10px;
+                height: 30px;
+                width: 163px;
+            }
+        }
+    }
+    &__info{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+    &__infoTitle{
+        background: linear-gradient(323.06deg, #A113FF 44.26%, #42E8E0 89.05%);
+        -webkit-background-clip: text;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        padding: 0;
+        margin: 0;
+    }
+    &__infoText{
+        max-width: 152px;
+        padding: 0;
+        margin: 50px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;        
+    }
+    &__cardLine{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        z-index: 10;
+        &.-one{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline1.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 83px;
+                z-index: 10;
+            }
+        }
+        &.-two{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline2.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 153px;
+                z-index: 10;
+            }
+        }
+        &.-three{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline3.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 196px;
+                z-index: 10;
+            }
+        }
+        &.-fourth{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline4.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 295px;
+                z-index: 10;
+            }
+        }
+        &.-fifth{
+            padding: 0;
+            margin: 0;
+            &::before{
+                content: '';
+                background: url(/assets/img/userfiles/Boxline5.png);
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 349px;
+                z-index: 10;
+            }
+        }
+    }
+}
