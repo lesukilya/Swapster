@@ -89,6 +89,7 @@ require( 'inc/header.php' );
                                 Выберите раздел «Пополнить»
                             </p>
                         </div>
+                        <img src="/assets/img/userfiles/arrowHow.png" alt="" class="b-contentStep__imgArrow">
                     </div>
                 </div> 
                 <div  class="b-contentReplenishment__line -two">
@@ -102,9 +103,10 @@ require( 'inc/header.php' );
                                 Выберите криптовалюту для пополнения
                             </p>
                         </div>
+                        <img src="/assets/img/userfiles/arrowHow.png" alt="" class="b-contentStep__imgArrow">
                     </div>
                 </div>
-                <div  class="b-contentReplenishment__line -three">
+                <div  class="b-contentReplenishment__line -three -last">
                     <div class="b-contentReplenishment__card -three -threeImg ">
                         <img src="/assets/img/userfiles/Replenishment3.png" alt=""  class="b-contentReplenishment__img">
                         <div class="b-contentReplenishment__info">
